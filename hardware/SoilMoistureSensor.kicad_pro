@@ -1,0 +1,31 @@
+{
+  "board": {
+    "design_settings": {
+      "defaults": {}
+    }
+  },
+  "meta": {
+    "filename": "SoilMoistureSensor.kicad_pro",
+    "version": 1
+  },
+  "net_settings": {
+    "classes": []
+  },
+  "pcbnew": {},
+  "schematic": {
+    "annotate_start_num": 0,
+    "drawing": {},
+    "legacy_lib_dir": "",
+    "legacy_lib_list": [],
+    "meta": {
+      "version": 1
+    }
+  },
+  "sheets": [
+    [
+      "0a3a66f6-4a74-4c5d-85df-84d42eef4f04",
+      "Root"
+    ]
+  ],
+  "text_variables": {}
+}
