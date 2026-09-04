@@ -5775,7 +5775,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D13.0mm_P5.00mm"
 			(at 90.17 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -7203,7 +7203,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_APV_ANR4030"
 			(at 90.17 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -7965,7 +7965,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 444.5 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -9273,7 +9273,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 			(at 30.48 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -9855,7 +9855,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_APV_ANR4030"
 			(at 229.87 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -10014,7 +10014,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 			(at 459.74 260.35 0)
 			(hide yes)
 			(show_name no)
