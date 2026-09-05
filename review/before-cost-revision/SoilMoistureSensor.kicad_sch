@@ -3821,7 +3821,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Changjiang_FNR4018S"
+		(property "Footprint" "Inductor_SMD:L_Coilcraft_LPS4018"
 			(at 42.1 81.28 0)
 			(effects
 				(font
@@ -3831,7 +3831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Changjiang Microelectronics"
+		(property "Manufacturer" "Coilcraft"
 			(at 38.1 81.28 0)
 			(effects
 				(font
@@ -3840,7 +3840,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "FNR4030S220MT"
+		(property "MPN" "LPS4018-223MRC"
 			(at 38.1 81.28 0)
 			(effects
 				(font
@@ -3849,7 +3849,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C167883"
+		(property "LCSC" "C5278935"
 			(at 38.1 81.28 0)
 			(effects
 				(font
@@ -3867,7 +3867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Source" "https://www.lcsc.com/product-detail/C167883.html"
+		(property "Source" "https://www.lcsc.com/product-detail/C5278935.html"
 			(at 38.1 81.28 0)
 			(effects
 				(font
@@ -4227,7 +4227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 134.62 137.16 0)
 			(effects
 				(font
@@ -4236,7 +4236,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0805KRX7R9BB104"
+		(property "MPN" "CL21B104KBCNNNC"
 			(at 134.62 137.16 0)
 			(effects
 				(font
@@ -4245,7 +4245,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C49678"
+		(property "LCSC" "C1711"
 			(at 134.62 137.16 0)
 			(effects
 				(font
@@ -4263,7 +4263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Source" "https://www.lcsc.com/product-detail/C49678.html"
+		(property "Source" "https://www.lcsc.com/product-detail/C1711.html"
 			(at 134.62 137.16 0)
 			(effects
 				(font
@@ -4359,7 +4359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "TDK"
 			(at 180.34 137.16 0)
 			(effects
 				(font
@@ -4368,7 +4368,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM2195C1H103JA01D"
+		(property "MPN" "CGA4C2C0G1H103J060AA"
 			(at 180.34 137.16 0)
 			(effects
 				(font
@@ -4377,7 +4377,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C97905"
+		(property "LCSC" "C1845387"
 			(at 180.34 137.16 0)
 			(effects
 				(font
@@ -4395,7 +4395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Source" "https://www.lcsc.com/product-detail/C97905.html"
+		(property "Source" "https://www.lcsc.com/product-detail/C1845387.html"
 			(at 180.34 137.16 0)
 			(effects
 				(font
@@ -4491,7 +4491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 226.06 137.16 0)
 			(effects
 				(font
@@ -4500,7 +4500,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0805KRX7R9BB104"
+		(property "MPN" "CL21B104KBCNNNC"
 			(at 226.06 137.16 0)
 			(effects
 				(font
@@ -4509,7 +4509,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C49678"
+		(property "LCSC" "C1711"
 			(at 226.06 137.16 0)
 			(effects
 				(font
@@ -4527,7 +4527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Source" "https://www.lcsc.com/product-detail/C49678.html"
+		(property "Source" "https://www.lcsc.com/product-detail/C1711.html"
 			(at 226.06 137.16 0)
 			(effects
 				(font
@@ -5662,7 +5662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 330.2 83.82 0)
 			(effects
 				(font
@@ -5671,7 +5671,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0805KRX7R9BB104"
+		(property "MPN" "CL21B104KBCNNNC"
 			(at 330.2 83.82 0)
 			(effects
 				(font
@@ -5680,7 +5680,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C49678"
+		(property "LCSC" "C1711"
 			(at 330.2 83.82 0)
 			(effects
 				(font
@@ -5698,7 +5698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Source" "https://www.lcsc.com/product-detail/C49678.html"
+		(property "Source" "https://www.lcsc.com/product-detail/C1711.html"
 			(at 330.2 83.82 0)
 			(effects
 				(font
@@ -5926,7 +5926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 330.2 154.94 0)
 			(effects
 				(font
@@ -5935,7 +5935,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0805KRX7R9BB104"
+		(property "MPN" "CL21B104KBCNNNC"
 			(at 330.2 154.94 0)
 			(effects
 				(font
@@ -5944,7 +5944,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C49678"
+		(property "LCSC" "C1711"
 			(at 330.2 154.94 0)
 			(effects
 				(font
@@ -5962,7 +5962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Source" "https://www.lcsc.com/product-detail/C49678.html"
+		(property "Source" "https://www.lcsc.com/product-detail/C1711.html"
 			(at 330.2 154.94 0)
 			(effects
 				(font
@@ -7132,7 +7132,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Changjiang_FNR4018S"
+		(property "Footprint" "Inductor_SMD:L_Coilcraft_LPS4018"
 			(at 181.8 205.74 0)
 			(effects
 				(font
@@ -7142,7 +7142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Changjiang Microelectronics"
+		(property "Manufacturer" "Coilcraft"
 			(at 177.8 205.74 0)
 			(effects
 				(font
@@ -7151,7 +7151,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "FNR4018S2R2MT"
+		(property "MPN" "LPS4018-222MRC"
 			(at 177.8 205.74 0)
 			(effects
 				(font
@@ -7160,7 +7160,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C167804"
+		(property "LCSC" "C4354938"
 			(at 177.8 205.74 0)
 			(effects
 				(font
@@ -7178,7 +7178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Source" "https://www.lcsc.com/product-detail/C167804.html"
+		(property "Source" "https://www.lcsc.com/product-detail/C4354938.html"
 			(at 177.8 205.74 0)
 			(effects
 				(font
@@ -8756,7 +8756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 353.06 287.02 0)
 			(effects
 				(font
@@ -8765,7 +8765,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0805KRX7R9BB104"
+		(property "MPN" "CL21B104KBCNNNC"
 			(at 353.06 287.02 0)
 			(effects
 				(font
@@ -8774,7 +8774,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C49678"
+		(property "LCSC" "C1711"
 			(at 353.06 287.02 0)
 			(effects
 				(font
@@ -8792,7 +8792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Source" "https://www.lcsc.com/product-detail/C49678.html"
+		(property "Source" "https://www.lcsc.com/product-detail/C1711.html"
 			(at 353.06 287.02 0)
 			(effects
 				(font
@@ -10739,7 +10739,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2M 1%"
+		(property "Value" "2.2M 1%"
 			(at 334.2 391.16 0)
 			(effects
 				(font
@@ -10767,7 +10767,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAF2004T5E"
+		(property "MPN" "0603WAF2204T5E"
 			(at 330.2 391.16 0)
 			(effects
 				(font
@@ -10776,7 +10776,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22976"
+		(property "LCSC" "C22938"
 			(at 330.2 391.16 0)
 			(effects
 				(font
@@ -10794,7 +10794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Source" "https://www.lcsc.com/product-detail/C22976.html"
+		(property "Source" "https://www.lcsc.com/product-detail/C22938.html"
 			(at 330.2 391.16 0)
 			(effects
 				(font
@@ -11120,7 +11120,7 @@
 		)
 		(uuid "30ac1f5e-7756-44c2-92a5-1b52a8938ec8")
 	)
-	(text "SUPERCAP TELEMETRY: GPIO3 / ADC1_CH3, 0 dB. Vcap = 21 x calibrated ADC volts.\nR24/R25 = 2M/100k; C13 = 100nF. Wait 100ms; average before Wi-Fi.\nLow ratio keeps input below 0.263V at 5.4V storage, including when ESP is off.\nDivider draws 2.38uA at 5V. Calibrate against a meter for better accuracy."
+	(text "SUPERCAP TELEMETRY: GPIO3 / ADC1_CH3, 0 dB. Vcap = 23 x calibrated ADC volts.\nR24/R25 = 2.2M/100k; C13 = 100nF. Wait 100ms; average before Wi-Fi.\nLow ratio keeps input below 0.24V at 5.4V storage, including when ESP is off.\nDivider draws 2.17uA at 5V. Calibrate against a meter for better accuracy."
 		(at 317.5 414.02 0)
 		(effects
 			(font

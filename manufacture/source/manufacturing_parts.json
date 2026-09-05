@@ -1,0 +1,185 @@
+[
+  {
+    "refs": "U1",
+    "manufacturer": "Texas Instruments",
+    "mpn": "BQ25570RGRR",
+    "lcsc": "C506250",
+    "note": "Extended; no Basic or Preferred energy-harvesting charger exists at JLCPCB."
+  },
+  {
+    "refs": "U2",
+    "manufacturer": "Espressif",
+    "mpn": "ESP32-C3-WROOM-02-N4",
+    "lcsc": "C2934560",
+    "note": "Extended; JLCPCB lists no Basic or Preferred ESP32 module or chip."
+  },
+  {
+    "refs": "U3",
+    "manufacturer": "Texas Instruments",
+    "mpn": "TLC555CDR",
+    "lcsc": "C6986",
+    "note": "Extended. The only Preferred 555 is the bipolar NE555DR, which needs 4.5V and draws mA - unusable on this 3.3V microwatt budget."
+  },
+  {
+    "refs": "U4",
+    "manufacturer": "Texas Instruments",
+    "mpn": "TPS62842DGRR",
+    "lcsc": "C2873354",
+    "note": "Extended; no Basic or Preferred nanoamp-quiescent buck at JLCPCB."
+  },
+  {
+    "refs": "Q1",
+    "manufacturer": "Alpha & Omega Semiconductor",
+    "mpn": "AO3401A",
+    "lcsc": "C15127"
+  },
+  {
+    "refs": "L1",
+    "manufacturer": "Changjiang Microelectronics",
+    "mpn": "FNR4030S220MT",
+    "lcsc": "C167883",
+    "note": "22uH shielded power inductor, 292mOhm, Isat 1.2A, 4x4x3.0mm. Replaces Coilcraft LPS4018-223MRC: 0.53->0.025 USD and lower DCR (was 360mOhm), which matters on the boost side of a microwatt harvester. Still Extended - JLCPCB has no Basic or Preferred power inductor."
+  },
+  {
+    "refs": "L2",
+    "manufacturer": "Changjiang Microelectronics",
+    "mpn": "FNR4018S2R2MT",
+    "lcsc": "C167804",
+    "note": "2.2uH shielded power inductor, 59mOhm, Isat 2.6A, 4x4x1.8mm. Replaces Coilcraft LPS4018-222MRC: 0.98->0.023 USD and lower DCR (was 70mOhm). Shares the FNR40xx land pattern with L1."
+  },
+  {
+    "refs": "SW1 SW2",
+    "manufacturer": "XUNPU",
+    "mpn": "TS-1088-AR02016",
+    "lcsc": "C720477"
+  },
+  {
+    "refs": "C1 C2",
+    "manufacturer": "Samsung Electro-Mechanics",
+    "mpn": "CL21A475KAQNNNE",
+    "lcsc": "C1779"
+  },
+  {
+    "refs": "C6 C7 C12",
+    "manufacturer": "Samsung Electro-Mechanics",
+    "mpn": "CL21A106KAYNNNE",
+    "lcsc": "C15850"
+  },
+  {
+    "refs": "C3 C5 C8 C9 C10",
+    "manufacturer": "Yageo",
+    "mpn": "CC0805KRX7R9BB104",
+    "lcsc": "C49678",
+    "note": "Basic: same 0805, 100nF, 50V, X7R, 10% ratings."
+  },
+  {
+    "refs": "C4",
+    "manufacturer": "Murata Electronics",
+    "mpn": "GRM2195C1H103JA01D",
+    "lcsc": "C97905",
+    "note": "10nF 50V C0G 5% 0805. Extended: JLCPCB stocks no Basic or Preferred-extended C0G/NP0 10nF in any package (checked 2026-09-05). Replaces zero-stock C1845387. Do not substitute X7R - this is the MPPT sample-and-hold node."
+  },
+  {
+    "refs": "C11",
+    "manufacturer": "Samsung Electro-Mechanics",
+    "mpn": "CL21B103KBANNNC",
+    "lcsc": "C1710"
+  },
+  {
+    "refs": "C13",
+    "manufacturer": "Yageo",
+    "mpn": "CC0603KRX7R9BB104",
+    "lcsc": "C14663",
+    "note": "100nF 50V X7R, exceeds 10V minimum."
+  },
+  {
+    "refs": "R1 R2 R3 R4 R17 R18 R20 R21 R22 R23 R24",
+    "manufacturer": "UNI-ROYAL",
+    "mpn": "0603WAF2004T5E",
+    "lcsc": "C22976",
+    "note": "R24 now 2M; telemetry conversion is 21 times ADC voltage."
+  },
+  {
+    "refs": "R5",
+    "manufacturer": "UNI-ROYAL",
+    "mpn": "0603WAF1504T5E",
+    "lcsc": "C4172",
+    "note": "1.5M 1%. Preferred-extended tier: no per-part loading fee. In stock 2026-09-05."
+  },
+  {
+    "refs": "R19",
+    "manufacturer": "UNI-ROYAL",
+    "mpn": "0603WAF3004T5E",
+    "lcsc": "C23156",
+    "note": "3M 1%. Preferred-extended tier: no per-part loading fee. In stock 2026-09-05."
+  },
+  {
+    "refs": "R25",
+    "manufacturer": "UNI-ROYAL",
+    "mpn": "0603WAF1003T5E",
+    "lcsc": "C25803"
+  },
+  {
+    "refs": "R8 R9 R12 R14 R15",
+    "manufacturer": "UNI-ROYAL",
+    "mpn": "0805W8F1002T5E",
+    "lcsc": "C17414"
+  },
+  {
+    "refs": "R10",
+    "manufacturer": "UNI-ROYAL",
+    "mpn": "0805W8F1001T5E",
+    "lcsc": "C17513"
+  },
+  {
+    "refs": "R11",
+    "manufacturer": "UNI-ROYAL",
+    "mpn": "0805W8F1003T5E",
+    "lcsc": "C149504"
+  },
+  {
+    "refs": "R13",
+    "manufacturer": "UNI-ROYAL",
+    "mpn": "0805W8F4702T5E",
+    "lcsc": "C17713"
+  },
+  {
+    "refs": "R16",
+    "manufacturer": "UNI-ROYAL",
+    "mpn": "0805W8F5232T5E",
+    "lcsc": "C17740",
+    "note": "52.3k 1%. Extended and unavoidable: TPS62842 decodes 3.3V only from RSET 50.21k-54.39k and JLCPCB has no Basic or Preferred 52.3k. The nearest Basic value (51k, C17737) leaves under 0.6% margin to the window edge before tempco."
+  },
+  {
+    "refs": "J1 J3",
+    "manufacturer": "JST",
+    "mpn": "B2B-PH-K-S(LF)(SN)",
+    "lcsc": "C131337",
+    "assembly": "Hand solder",
+    "note": "Retain original manual-assembly policy; J3 optional. Mate with PHR-2 housing and SPH-002T-P0.5S contacts. JST specifies PCB thickness 0.8-1.6mm."
+  },
+  {
+    "refs": "J2",
+    "manufacturer": "Ckmtw",
+    "mpn": "B-2100S04P-A110",
+    "lcsc": "C124378",
+    "assembly": "Hand solder",
+    "note": "Straight 1x4 male header, 2.54mm pitch, 3mm solder tails; programming header optional."
+  },
+  {
+    "refs": "RV1",
+    "manufacturer": "Bourns",
+    "mpn": "3296W-1-104LF",
+    "lcsc": "C48084",
+    "assembly": "Hand solder"
+  },
+  {
+    "refs": "SC1",
+    "manufacturer": "Eaton",
+    "mpn": "PHV-5R4V305-R",
+    "lcsc": "",
+    "assembly": "Hand solder - external purchase",
+    "source": "https://www.eaton.com/us/en-us/skuPage.PHV-5R4V305-R.html",
+    "note": "User-approved LCSC exception. Mouser 504-PHV-5R4V305-R. Essential: 3F 5.4V low-ESR vertical pack; do not replace with a high-ESR memory-backup capacitor."
+  }
+]

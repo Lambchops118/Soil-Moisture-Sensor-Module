@@ -1,0 +1,97 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-05T13:35:28",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.4",
+    "schematic_parity": [
+        {
+            "description": "L_Changjiang_FNR4018S doesn't match footprint given by symbol (Inductor_SMD:L_Changjiang_FNR4018S)",
+            "items": [
+                {
+                    "description": "Footprint L1",
+                    "pos": {
+                        "x": 124.5,
+                        "y": 87.0
+                    },
+                    "uuid": "b6f1ff44-c2cb-42bd-b66b-5f5904e2cea1"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Manufacturer' in footprint",
+            "items": [
+                {
+                    "description": "Footprint L1",
+                    "pos": {
+                        "x": 124.5,
+                        "y": 87.0
+                    },
+                    "uuid": "b6f1ff44-c2cb-42bd-b66b-5f5904e2cea1"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "L_Changjiang_FNR4018S doesn't match footprint given by symbol (Inductor_SMD:L_Changjiang_FNR4018S)",
+            "items": [
+                {
+                    "description": "Footprint L2",
+                    "pos": {
+                        "x": 124.5,
+                        "y": 103.5
+                    },
+                    "uuid": "06adcea9-197b-4f08-9719-39adb7943ae1"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Manufacturer' in footprint",
+            "items": [
+                {
+                    "description": "Footprint L2",
+                    "pos": {
+                        "x": 124.5,
+                        "y": 103.5
+                    },
+                    "uuid": "06adcea9-197b-4f08-9719-39adb7943ae1"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        }
+    ],
+    "source": "SoilMoistureSensor.kicad_pcb",
+    "unconnected_items": [],
+    "violations": []
+}

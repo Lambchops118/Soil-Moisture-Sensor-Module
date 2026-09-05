@@ -3821,7 +3821,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Changjiang_FNR4018S"
+		(property "Footprint" "Inductor_SMD:L_Coilcraft_LPS4018"
 			(at 42.1 81.28 0)
 			(effects
 				(font
@@ -3831,7 +3831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Changjiang Microelectronics"
+		(property "Manufacturer" "Coilcraft"
 			(at 38.1 81.28 0)
 			(effects
 				(font
@@ -3840,7 +3840,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "FNR4030S220MT"
+		(property "MPN" "LPS4018-223MRC"
 			(at 38.1 81.28 0)
 			(effects
 				(font
@@ -3849,7 +3849,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C167883"
+		(property "LCSC" "C5278935"
 			(at 38.1 81.28 0)
 			(effects
 				(font
@@ -3867,7 +3867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Source" "https://www.lcsc.com/product-detail/C167883.html"
+		(property "Source" "https://www.lcsc.com/product-detail/C5278935.html"
 			(at 38.1 81.28 0)
 			(effects
 				(font
@@ -7132,7 +7132,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Changjiang_FNR4018S"
+		(property "Footprint" "Inductor_SMD:L_Coilcraft_LPS4018"
 			(at 181.8 205.74 0)
 			(effects
 				(font
@@ -7142,7 +7142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Changjiang Microelectronics"
+		(property "Manufacturer" "Coilcraft"
 			(at 177.8 205.74 0)
 			(effects
 				(font
@@ -7151,7 +7151,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "FNR4018S2R2MT"
+		(property "MPN" "LPS4018-222MRC"
 			(at 177.8 205.74 0)
 			(effects
 				(font
@@ -7160,7 +7160,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C167804"
+		(property "LCSC" "C4354938"
 			(at 177.8 205.74 0)
 			(effects
 				(font
@@ -7178,7 +7178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Source" "https://www.lcsc.com/product-detail/C167804.html"
+		(property "Source" "https://www.lcsc.com/product-detail/C4354938.html"
 			(at 177.8 205.74 0)
 			(effects
 				(font

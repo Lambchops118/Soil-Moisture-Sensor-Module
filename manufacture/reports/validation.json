@@ -1,0 +1,32 @@
+{
+  "automated_components": 45,
+  "automated_bom_lines": 23,
+  "manual_board_components": 5,
+  "external_panel": 1,
+  "lcsc_missing": [
+    "SC1 (user-approved external purchase)"
+  ],
+  "origin_mm": [
+    89,
+    245.5
+  ],
+  "drc_violations": 0,
+  "unconnected_items": 0,
+  "schematic_parity_issues": 0,
+  "erc_violations": 0,
+  "board_thickness_mm": 1.6,
+  "size_mm": [
+    55,
+    198.5
+  ],
+  "status": "CAD exports verified; supplier stock and assembly orientation approval still required",
+  "export_checks": [
+    "Single closed outline: 55 x 198.5mm",
+    "No exported copper vertices in structural wedge",
+    "No mask flashes below soil line",
+    "Four 3.2mm NPTH mounting holes: 49 x 26mm spacing",
+    "45 unique matching BOM/CPL designators",
+    "All 45 SMT placements on top",
+    "Source snapshots and Gerber ZIP match files"
+  ]
+}

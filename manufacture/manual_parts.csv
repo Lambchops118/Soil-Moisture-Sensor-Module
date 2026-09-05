@@ -1,0 +1,6 @@
+Designator,Quantity,Value,Footprint,Manufacturer,MPN,LCSC Part #,Assembly,Source URL,Notes
+"J1,J3",2,Conn_01x02,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,JST,B2B-PH-K-S(LF)(SN),C131337,Hand solder,https://www.lcsc.com/product-detail/C131337.html,Retain original manual-assembly policy; J3 optional. Mate with PHR-2 housing and SPH-002T-P0.5S contacts. JST specifies PCB thickness 0.8-1.6mm.
+J2,1,Conn_01x04,PinHeader_1x04_P2.54mm_Vertical,Ckmtw,B-2100S04P-A110,C124378,Hand solder,https://www.lcsc.com/product-detail/C124378.html,"Straight 1x4 male header, 2.54mm pitch, 3mm solder tails; programming header optional."
+RV1,1,100k trim,Potentiometer_Bourns_3296W_Vertical,Bourns,3296W-1-104LF,C48084,Hand solder,https://www.lcsc.com/product-detail/C48084.html,
+SC1,1,3F 5.4V PHV-5R4V305-R,CP_Eaton_PHV_3F_Vertical_P11.8mm,Eaton,PHV-5R4V305-R,,Hand solder - external purchase,https://www.eaton.com/us/en-us/skuPage.PHV-5R4V305-R.html,User-approved LCSC exception. Mouser 504-PHV-5R4V305-R. Essential: 3F 5.4V low-ESR vertical pack; do not replace with a high-ESR memory-backup capacitor.
+SOL1 (external),1,123mW solar module,29x23mm rear solder pads,ANYSOLAR,SM141K04L,C22012449,Hand solder - external carrier,https://item.szlcsc.com/23442921.html,Not on main-board CPL. Hand solder <=5 seconds below 400C; no high-temperature reflow.
