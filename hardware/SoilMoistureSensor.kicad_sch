@@ -7313,7 +7313,7 @@
 		(lib_id "MoistureRevB:Conn_01x02")
 		(at 541.02 281.94 0)
 		(unit 1)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f607d38d-c3d0-47bb-b91a-82edaaf57414")
@@ -7341,7 +7341,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SoilProbe:SoilProbe_IDC_40x55mm"
+		(property "Footprint" "SoilProbe:SoilProbe_IDC_40x85mm"
 			(at 541.02 281.94 0)
 			(effects
 				(font
