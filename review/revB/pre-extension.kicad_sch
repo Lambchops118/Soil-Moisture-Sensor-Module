@@ -7,7 +7,7 @@
 		(title "Soil moisture sensor - solar / supercapacitor")
 		(rev "B")
 		(company "BUTLER")
-		(comment 1 "3.3 V / 750 mA buck; storage OV 4.99 V; enable 4.08 V / disable 3.63 V")
+		(comment 1 "3.3 V / 750 mA buck; storage OV 4.97 V; enable 4.06 V / disable 3.63 V")
 	)
 	(lib_symbols
 		(symbol "MoistureRevB:C"
@@ -3619,7 +3619,7 @@
 		(unit 1)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "711a480d-67f1-4c8b-a79e-ffb68ad27f6f")
 		(instances
 			(project "SoilMoistureSensor"
@@ -3809,7 +3809,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF 25V X5R"
+		(property "Value" "4.7uF 10V X7R"
 			(at 42.1 116.84 0)
 			(effects
 				(font
@@ -3818,7 +3818,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 42.1 116.84 0)
 			(effects
 				(font
@@ -3896,7 +3896,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF 25V X5R"
+		(property "Value" "4.7uF 10V X7R"
 			(at 92.9 137.16 0)
 			(effects
 				(font
@@ -3983,7 +3983,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF 50V X7R"
+		(property "Value" "100nF 10V"
 			(at 138.62 137.16 0)
 			(effects
 				(font
@@ -4157,7 +4157,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF 50V X7R"
+		(property "Value" "100nF 10V"
 			(at 230.06 137.16 0)
 			(effects
 				(font
@@ -4225,7 +4225,7 @@
 		(unit 1)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "31a90bc2-78cf-4d79-a876-ffa534a0aac1")
 		(instances
 			(project "SoilMoistureSensor"
@@ -4331,7 +4331,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2M 1%"
+		(property "Value" "4.75M 1%"
 			(at 184.34 48.26 0)
 			(effects
 				(font
@@ -4340,7 +4340,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 184.34 48.26 0)
 			(effects
 				(font
@@ -4350,6 +4350,48 @@
 				(hide yes)
 			)
 		)
+	)
+	(wire
+		(pts
+			(xy 180.3400 44.4500)
+			(xy 180.3400 39.3700)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8262aa88-1dde-41be-92b1-609df35bdf42")
+	)
+	(label "VBAT_OV_N"
+		(at 180.3400 39.3700 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "56c32240-d099-4a90-ae5e-09fd696320ba")
+	)
+	(wire
+		(pts
+			(xy 180.3400 52.0700)
+			(xy 180.3400 57.1500)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c651099-f30f-4e8b-af84-b7b754aa0c7a")
+	)
+	(label "GND"
+		(at 180.3400 57.1500 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f945e1a-0c62-4575-a3c1-4daec5f637ed")
 	)
 	(symbol
 		(lib_id "MoistureRevB:R")
@@ -4376,7 +4418,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2M 1%"
+		(property "Value" "8.25M 1%"
 			(at 184.34 83.82 0)
 			(effects
 				(font
@@ -4385,7 +4427,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 184.34 83.82 0)
 			(effects
 				(font
@@ -4395,6 +4437,48 @@
 				(hide yes)
 			)
 		)
+	)
+	(wire
+		(pts
+			(xy 180.3400 80.0100)
+			(xy 180.3400 74.9300)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47798196-ba83-475a-b619-d1c19bb36db7")
+	)
+	(label "VRDIV"
+		(at 180.3400 74.9300 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe196073-2436-419d-8c97-94a2c2d492fe")
+	)
+	(wire
+		(pts
+			(xy 180.3400 87.6300)
+			(xy 180.3400 92.7100)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bb1570b-149c-4abe-9258-507f15f45635")
+	)
+	(label "VBAT_OV_N"
+		(at 180.3400 92.7100 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a915d3c-b82e-4abd-8bf8-e608afbee143")
 	)
 	(symbol
 		(lib_id "MoistureRevB:R")
@@ -4421,7 +4505,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2M 1%"
+		(property "Value" "2.49M 1%"
 			(at 275.78 48.26 0)
 			(effects
 				(font
@@ -4430,7 +4514,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 275.78 48.26 0)
 			(effects
 				(font
@@ -4440,6 +4524,48 @@
 				(hide yes)
 			)
 		)
+	)
+	(wire
+		(pts
+			(xy 271.7800 44.4500)
+			(xy 271.7800 39.3700)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5643e33-8e48-4e6c-92de-92aec4f076c7")
+	)
+	(label "GND"
+		(at 271.7800 39.3700 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd539b0a-caeb-41c2-b5aa-b9899d7d91f8")
+	)
+	(wire
+		(pts
+			(xy 271.7800 52.0700)
+			(xy 271.7800 57.1500)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13888d26-df99-4cf2-b3ce-c9277d477d09")
+	)
+	(label "OK_PROG_N"
+		(at 271.7800 57.1500 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "0be47f8c-beed-4730-bc7c-4d9c29bbc820")
 	)
 	(symbol
 		(lib_id "MoistureRevB:R")
@@ -4466,7 +4592,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2M 1%"
+		(property "Value" "4.99M 1%"
 			(at 275.78 83.82 0)
 			(effects
 				(font
@@ -4475,7 +4601,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 275.78 83.82 0)
 			(effects
 				(font
@@ -4486,9 +4612,51 @@
 			)
 		)
 	)
+	(wire
+		(pts
+			(xy 271.7800 80.0100)
+			(xy 271.7800 74.9300)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2199159d-7b16-49c0-9038-a43bb2ccd0d5")
+	)
+	(label "OK_PROG_N"
+		(at 271.7800 74.9300 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "ccf6919a-f52d-43c9-baff-343d78960b5b")
+	)
+	(wire
+		(pts
+			(xy 271.7800 87.6300)
+			(xy 271.7800 92.7100)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "603e14b5-7e37-472b-bcc5-dc01b5fc2e47")
+	)
+	(label "OK_HYST_N"
+		(at 271.7800 92.7100 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "82dcf637-c5d8-40dc-bede-1652f88f3c06")
+	)
 	(symbol
 		(lib_id "MoistureRevB:R")
-		(at 271.78 163.83 0)
+		(at 271.78 119.38 0)
 		(unit 1)
 		(in_bom yes)
 		(on_board yes)
@@ -4503,7 +4671,7 @@
 			)
 		)
 		(property "Reference" "R5"
-			(at 275.78 161.29 0)
+			(at 275.78 116.83999999999999 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4511,8 +4679,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.5M 1%"
-			(at 275.78 163.83 0)
+		(property "Value" "866k 1%"
+			(at 275.78 119.38 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4520,8 +4688,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 275.78 163.83 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 275.78 119.38 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4530,6 +4698,48 @@
 				(hide yes)
 			)
 		)
+	)
+	(wire
+		(pts
+			(xy 271.7800 115.5700)
+			(xy 271.7800 110.4900)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "493c7f59-e38a-4739-ab98-032b3d724e6c")
+	)
+	(label "VRDIV"
+		(at 271.7800 110.4900 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae0897bb-174b-465b-9348-e5b225c49f0b")
+	)
+	(wire
+		(pts
+			(xy 271.7800 123.1900)
+			(xy 271.7800 128.2700)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8522ad9c-7c26-4701-a247-2294b3695a36")
+	)
+	(label "OK_HYST_N"
+		(at 271.7800 128.2700 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "1df2536c-6072-4075-811f-40aa37f970dc")
 	)
 	(symbol
 		(lib_id "MoistureRevB:ESP32-C3-WROOM-02")
@@ -4555,7 +4765,7 @@
 				)
 			)
 		)
-		(property "Value" "ESP32-C3-WROOM-02-N4"
+		(property "Value" "ESP32-C3-WROOM-02"
 			(at 406.4 70.98 0)
 			(effects
 				(font
@@ -4563,7 +4773,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SoilProbe:ESP32-C3-WROOM-02_0.3mm_thermal_vias"
+		(property "Footprint" "RF_Module:ESP32-C3-WROOM-02"
 			(at 406.4 91.44 0)
 			(effects
 				(font
@@ -4840,7 +5050,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF 25V X5R"
+		(property "Value" "10uF 10V X7R"
 			(at 334.2 48.26 0)
 			(effects
 				(font
@@ -4927,7 +5137,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF 50V X7R"
+		(property "Value" "100nF 10V"
 			(at 334.2 83.82 0)
 			(effects
 				(font
@@ -5101,7 +5311,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF 50V X7R"
+		(property "Value" "100nF 10V"
 			(at 334.2 154.94 0)
 			(effects
 				(font
@@ -5187,7 +5397,7 @@
 				)
 			)
 		)
-		(property "Value" "TS-1088-AR02016"
+		(property "Value" "SW_Push"
 			(at 388.62 134.48 0)
 			(effects
 				(font
@@ -5195,7 +5405,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
 			(at 388.62 154.94 0)
 			(effects
 				(font
@@ -5271,7 +5481,7 @@
 				)
 			)
 		)
-		(property "Value" "TS-1088-AR02016"
+		(property "Value" "SW_Push"
 			(at 454.66 134.48 0)
 			(effects
 				(font
@@ -5279,7 +5489,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
 			(at 454.66 154.94 0)
 			(effects
 				(font
@@ -5598,7 +5808,7 @@
 		(unit 1)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "4e0cc108-94f1-4dee-8d72-17f6416b43ac")
 		(instances
 			(project "SoilMoistureSensor"
@@ -6131,7 +6341,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF 25V X5R"
+		(property "Value" "10uF 10V X7R"
 			(at 42.1 233.68 0)
 			(effects
 				(font
@@ -6218,7 +6428,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF 25V X5R"
+		(property "Value" "10uF 10V X7R"
 			(at 230.06 233.68 0)
 			(effects
 				(font
@@ -6227,7 +6437,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 230.06 233.68 0)
 			(effects
 				(font
@@ -6583,7 +6793,7 @@
 				)
 			)
 		)
-		(property "Value" "TLC555CDR"
+		(property "Value" "TLC555xD"
 			(at 411.48 215.76 0)
 			(effects
 				(font
@@ -6949,7 +7159,7 @@
 		(unit 1)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "2e488e62-7303-41b2-ba11-768d8717a462")
 		(instances
 			(project "SoilMoistureSensor"
@@ -7076,7 +7286,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF 50V X7R"
+		(property "Value" "100nF 10V"
 			(at 357.06 287.02 0)
 			(effects
 				(font
@@ -7163,7 +7373,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF 50V X7R"
+		(property "Value" "10nF"
 			(at 410.4 287.02 0)
 			(effects
 				(font
@@ -7231,7 +7441,7 @@
 		(unit 1)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "9a5c1c45-3d1f-4918-b6fa-0e9aec5ca18b")
 		(instances
 			(project "SoilMoistureSensor"
@@ -7341,7 +7551,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SoilProbe:SoilProbe_IDC_40x55mm"
+		(property "Footprint" "SoilProbe:SoilProbe_IDC_40x30mm"
 			(at 541.02 281.94 0)
 			(effects
 				(font
@@ -7748,7 +7958,7 @@
 		)
 		(uuid "f8ddde13-4d3d-4d7b-9615-b573d7f80477")
 	)
-	(text "BQ25570 buck disabled; U4 draws from VBAT directly.\nOV: R1+R17 = 4M; R2+R18+R19 = 7M.\nOV = 1.5 x 1.21 x (1 + 7/4) = 4.991 V.\nBAT_OK: bottom 4M, middle 8M, top 1.5M.\nOFF = 3.630 V; ON = 4.084 V. Total divider = 13.5M.\nJ1: solar Voc <= 5.1 V, power <= 400 mW.\nSC1: PHV-5R4V305-R, low ESR, indoor <= 65 C."
+	(text "BQ25570 buck disabled. VOUT/LBUCK intentionally open.\nU4 draws from VBAT directly; BAT_OK provides hysteretic shutdown.\nR1/R2: OV = 1.5 x 1.21 x (1 + 8.25/4.75) = 4.967 V.\nR3/R4/R5: OFF 3.635 V; ON 4.056 V.\nJ1: solar source only; Voc <= 5.1 V and power <= 400 mW.\nSC1: Eaton PHV-5R4V305-R, low ESR. Indoor use, <= 65 C."
 		(at 25.4 290.83 0)
 		(effects
 			(font
@@ -7784,823 +7994,4 @@
 		)
 	)
 	(embedded_fonts no)
-	(wire
-		(pts
-			(xy 180.34 44.449999999999996)
-			(xy 180.34 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10131378-e7a4-437e-b5e1-2ae39d7592a0")
-	)
-	(label "VBAT_OV_N"
-		(at 180.34 39.37 90)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "0e801afb-9b2a-4144-b890-c0b6e1fe3b68")
-	)
-	(wire
-		(pts
-			(xy 180.34 52.07)
-			(xy 180.34 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d90c2887-e341-4a9e-a16c-9f068c586b6d")
-	)
-	(label "OV_LO_SER"
-		(at 180.34 57.15 90)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "e54f67c8-1ae2-4dbc-be88-7803443cdd9b")
-	)
-	(symbol
-		(lib_id "MoistureRevB:R")
-		(at 226.06 48.26 0)
-		(unit 1)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "340f5979-0c67-4967-b044-161ec68087b8")
-		(instances
-			(project "SoilMoistureSensor"
-				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-		(property "Reference" "R17"
-			(at 230.06 45.72 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2M 1%"
-			(at 230.06 48.26 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 230.06 48.26 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 226.06 44.449999999999996)
-			(xy 226.06 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "049ad1d0-f631-4019-85a3-f7d8772358b3")
-	)
-	(label "OV_LO_SER"
-		(at 226.06 39.37 90)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "46b23065-e993-48da-8e8a-9973fc41f3ee")
-	)
-	(wire
-		(pts
-			(xy 226.06 52.07)
-			(xy 226.06 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e60b963-9c96-4688-aa0e-9b7e079c2745")
-	)
-	(label "GND"
-		(at 226.06 57.15 90)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "ce7ba10f-ac97-4e18-a903-4811196ef7bf")
-	)
-	(wire
-		(pts
-			(xy 180.34 80.00999999999999)
-			(xy 180.34 74.92999999999999)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5f0bda6-1d0d-475d-95cf-311eedf83864")
-	)
-	(label "VRDIV"
-		(at 180.34 74.92999999999999 90)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "7bc47579-af09-4f3e-a4b4-b57bf61bff5c")
-	)
-	(wire
-		(pts
-			(xy 180.34 87.63)
-			(xy 180.34 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1521985d-7dd3-458f-add2-728b8e67796a")
-	)
-	(label "OV_HI_SER1"
-		(at 180.34 92.71 90)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "c0d81f2d-5b1d-45c0-a542-8c597758bede")
-	)
-	(symbol
-		(lib_id "MoistureRevB:R")
-		(at 180.34 109.22 0)
-		(unit 1)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f4c4fd8c-1ad1-49c1-85a9-d6226ca625b9")
-		(instances
-			(project "SoilMoistureSensor"
-				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-		(property "Reference" "R18"
-			(at 184.34 106.67999999999999 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2M 1%"
-			(at 184.34 109.22 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 184.34 109.22 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 180.34 105.41)
-			(xy 180.34 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32d40735-e96d-4d99-8daf-9dd991467683")
-	)
-	(label "OV_HI_SER1"
-		(at 180.34 100.33 90)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "39942c23-ec87-43f4-a087-cb7fbd2591d4")
-	)
-	(wire
-		(pts
-			(xy 180.34 113.03)
-			(xy 180.34 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce0b9950-9109-435c-b53c-ec71aabbef7f")
-	)
-	(label "OV_HI_SER2"
-		(at 180.34 118.11 90)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "6a55a73f-39dc-4123-a0d6-25ba4260ecfa")
-	)
-	(symbol
-		(lib_id "MoistureRevB:R")
-		(at 226.06 109.22 0)
-		(unit 1)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d9260254-b96b-45ca-95d1-c7130b0e4bb6")
-		(instances
-			(project "SoilMoistureSensor"
-				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-		(property "Reference" "R19"
-			(at 230.06 106.67999999999999 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3M 1%"
-			(at 230.06 109.22 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 230.06 109.22 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 226.06 105.41)
-			(xy 226.06 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81328ca1-7d8b-4715-b3f7-1ed22b184d57")
-	)
-	(label "OV_HI_SER2"
-		(at 226.06 100.33 90)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "2bf38dac-232d-40fd-89ad-0b84e4edefa8")
-	)
-	(wire
-		(pts
-			(xy 226.06 113.03)
-			(xy 226.06 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee7055aa-9d71-48be-b256-c08c67cc6f65")
-	)
-	(label "VBAT_OV_N"
-		(at 226.06 118.11 90)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "04c75155-2010-4e15-bf5b-15f94521592a")
-	)
-	(wire
-		(pts
-			(xy 271.78 44.449999999999996)
-			(xy 271.78 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "188a028c-46b7-455e-a5d8-fc36c7663882")
-	)
-	(label "GND"
-		(at 271.78 39.37 90)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "f2695df0-26c2-4be0-9429-d0d064882519")
-	)
-	(wire
-		(pts
-			(xy 271.78 52.07)
-			(xy 271.78 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23d46fba-9451-4d7f-a756-8db4bfed8138")
-	)
-	(label "OK_LO_SER"
-		(at 271.78 57.15 90)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "6456b290-9139-4dfc-8c35-551e99b977c3")
-	)
-	(symbol
-		(lib_id "MoistureRevB:R")
-		(at 271.78 66.04 0)
-		(unit 1)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "38b8d08a-6631-48b0-a847-7216a6f546ab")
-		(instances
-			(project "SoilMoistureSensor"
-				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-		(property "Reference" "R20"
-			(at 275.78 63.50000000000001 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2M 1%"
-			(at 275.78 66.04 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 275.78 66.04 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 271.78 62.230000000000004)
-			(xy 271.78 57.150000000000006)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "701df985-9a95-4e97-aa6d-65a7485273d5")
-	)
-	(label "OK_LO_SER"
-		(at 271.78 57.150000000000006 90)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "48446838-c4bb-45c7-a7bc-45954b4e180d")
-	)
-	(wire
-		(pts
-			(xy 271.78 69.85000000000001)
-			(xy 271.78 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adb7ae9f-3974-4cac-8b2e-b8b784ca0885")
-	)
-	(label "OK_PROG_N"
-		(at 271.78 74.93 90)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "d41d489d-a724-4fdb-9d37-fe0425dab4a0")
-	)
-	(wire
-		(pts
-			(xy 271.78 80.00999999999999)
-			(xy 271.78 74.92999999999999)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d41c5366-c6fc-4db7-8981-c58c877a6cb0")
-	)
-	(label "OK_PROG_N"
-		(at 271.78 74.92999999999999 90)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "9474c9ec-3dad-4598-92a9-c84a21a5e940")
-	)
-	(wire
-		(pts
-			(xy 271.78 87.63)
-			(xy 271.78 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc210fdf-27f3-412a-b2bb-62b30bf4fe13")
-	)
-	(label "OK_MID_SER1"
-		(at 271.78 92.71 90)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "9e34b9e0-9757-4884-8a22-8acdabdfa88e")
-	)
-	(symbol
-		(lib_id "MoistureRevB:R")
-		(at 271.78 101.6 0)
-		(unit 1)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "216a3ae3-2b24-4aea-b910-8b78b67043d4")
-		(instances
-			(project "SoilMoistureSensor"
-				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-		(property "Reference" "R21"
-			(at 275.78 99.05999999999999 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2M 1%"
-			(at 275.78 101.6 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 275.78 101.6 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 271.78 97.78999999999999)
-			(xy 271.78 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcc58306-daf7-4072-890f-f1a6483ce5f0")
-	)
-	(label "OK_MID_SER1"
-		(at 271.78 92.71 90)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "f2fb2f43-d6fd-4dac-b60a-b727e78c930f")
-	)
-	(wire
-		(pts
-			(xy 271.78 105.41)
-			(xy 271.78 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92166d8e-c8bc-4f5f-9aa5-1199c7617b30")
-	)
-	(label "OK_MID_SER2"
-		(at 271.78 110.49 90)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "92985f55-ac3b-424d-9529-9ce5800257e4")
-	)
-	(symbol
-		(lib_id "MoistureRevB:R")
-		(at 271.78 119.38 0)
-		(unit 1)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b835c7fa-834c-4c89-a115-59029ff33221")
-		(instances
-			(project "SoilMoistureSensor"
-				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-		(property "Reference" "R22"
-			(at 275.78 116.83999999999999 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2M 1%"
-			(at 275.78 119.38 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 275.78 119.38 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 271.78 115.57)
-			(xy 271.78 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "032d5fe1-841a-46bb-af66-bea50ec07f7c")
-	)
-	(label "OK_MID_SER2"
-		(at 271.78 110.49 90)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "9d5bc86e-4140-463c-b7d2-58168369e908")
-	)
-	(wire
-		(pts
-			(xy 271.78 123.19)
-			(xy 271.78 128.26999999999998)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f71691ec-0b60-4022-9c7a-709deb504829")
-	)
-	(label "OK_MID_SER3"
-		(at 271.78 128.26999999999998 90)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "cadb1f1e-4bb0-4d58-aecb-683c6c3bd9e3")
-	)
-	(symbol
-		(lib_id "MoistureRevB:R")
-		(at 271.78 137.16 0)
-		(unit 1)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3e8e0739-ee1e-45fa-a508-fcd8e3002416")
-		(instances
-			(project "SoilMoistureSensor"
-				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-		(property "Reference" "R23"
-			(at 275.78 134.62 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2M 1%"
-			(at 275.78 137.16 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 275.78 137.16 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 271.78 133.35)
-			(xy 271.78 128.26999999999998)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54537993-fd95-4d81-bd24-a3142e042e63")
-	)
-	(label "OK_MID_SER3"
-		(at 271.78 128.26999999999998 90)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "971464bb-8a62-4cdd-8d2a-8983b6302c1e")
-	)
-	(wire
-		(pts
-			(xy 271.78 140.97)
-			(xy 271.78 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e47f9bd4-7e69-4bb8-b490-cc24ad0b3d26")
-	)
-	(label "OK_HYST_N"
-		(at 271.78 146.05 90)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "11c0ed18-5ed9-46ef-8caf-baa48e1e440a")
-	)
-	(wire
-		(pts
-			(xy 271.78 160.02)
-			(xy 271.78 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9df2a428-c44a-47cd-b522-f396e3ded377")
-	)
-	(label "VRDIV"
-		(at 271.78 154.94 90)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "1a0808ce-045d-4823-8208-2a0840233a05")
-	)
-	(wire
-		(pts
-			(xy 271.78 167.64)
-			(xy 271.78 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b816760f-aeaf-4d8e-ac2d-3f112e79cab0")
-	)
-	(label "OK_HYST_N"
-		(at 271.78 172.72 90)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "d45de1d3-86dd-48bf-b9df-abdbffbc1101")
-	)
 )

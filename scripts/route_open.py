@@ -9,7 +9,7 @@ import numpy as np
 from PIL import Image,ImageDraw
 ROOT=Path(__file__).resolve().parents[1]; path=ROOT/'hardware/SoilMoistureSensor.kicad_pcb'
 b=p.LoadBoard(str(path)); report=json.loads((ROOT/'review/revB/drc.json').read_text())
-step=.05; x0=95.;y0=47.; W=861;H=1451
+step=.05; x0=95.;y0=47.; W=861;H=1731
 layers=[p.F_Cu,p.B_Cu]
 def ix(x,y):return (round((x-x0)/step),round((y-y0)/step))
 def mm(v):return (p.ToMM(v.x),p.ToMM(v.y))
@@ -20,8 +20,8 @@ def mask(net,margin):
     ims=[Image.new('1',(W,H),0) for _ in range(2)]; ds=[ImageDraw.Draw(im) for im in ims]
     def rect(d,x1,y1,x2,y2):d.rectangle([ix(x1,y1),ix(x2,y2)],fill=1)
     for d in ds:
-        rect(d,95,47,138,47.6);rect(d,95,47,95.6,119.5);rect(d,137.4,47,138,119.5)
-        rect(d,107,47,126.5,58.7) # antenna copper keepout
+        rect(d,95,47,138,47.6);rect(d,95,47,95.6,133.5);rect(d,137.4,47,138,133.5)
+        rect(d,102.25,47,130.75,58.75) # antenna copper keepout
     for f in b.GetFootprints():
         for q in f.Pads():
             if q.GetNetCode()==net:continue
@@ -51,7 +51,10 @@ def route(n,start,goal,sl,gl,width):
         k=key(l,sx,sy);scores[k]=0;heapq.heappush(heap,(heuristic(sx,sy),0,k))
     offsets=[(1,0,1),(-1,0,1),(0,1,1),(0,-1,1),(1,1,1.41421356),(1,-1,1.41421356),(-1,1,1.41421356),(-1,-1,1.41421356)]
     limit=time.monotonic()+45
+    iterations=0
     while heap:
+        iterations+=1
+        if iterations%1000==0 and time.monotonic()>limit:return None
         _,cost,k=heapq.heappop(heap)
         if cost>scores.get(k,1e30):continue
         if k in gkeys:
@@ -64,10 +67,10 @@ def route(n,start,goal,sl,gl,width):
             if xx<0 or yy<0 or xx>=W or yy>=H or block[l,yy,xx]:continue
             if dx and dy and (block[l,y,xx] or block[l,yy,x]):continue
             kk=key(l,xx,yy);cc=cost+dist
-            if cc<scores.get(kk,1e30):scores[kk]=cc;parents[kk]=k;heapq.heappush(heap,(cc+heuristic(xx,yy)*1.04,cc,kk))
+            if cc<scores.get(kk,1e30):scores[kk]=cc;parents[kk]=k;heapq.heappush(heap,(cc+heuristic(xx,yy)*2.0,cc,kk))
         if not vias[0,y,x] and not vias[1,y,x]:
             kk=key(1-l,x,y);cc=cost+80
-            if cc<scores.get(kk,1e30):scores[kk]=cc;parents[kk]=k;heapq.heappush(heap,(cc+heuristic(x,y)*1.04,cc,kk))
+            if cc<scores.get(kk,1e30):scores[kk]=cc;parents[kk]=k;heapq.heappush(heap,(cc+heuristic(x,y)*2.0,cc,kk))
         if len(scores)%10000==0 and time.monotonic()>limit:return None
     return None
 def add(n,route,start,goal,width):
@@ -92,10 +95,11 @@ for issue in report['unconnected_items']:
     if len(sys.argv)>1 and sys.argv[1] not in name:continue
     start=(a['pos']['x'],a['pos']['y']);goal=(c['pos']['x'],c['pos']['y'])
     sl=[i for i,l in enumerate(layers) if qa.IsOnLayer(l)];gl=[i for i,l in enumerate(layers) if qc.IsOnLayer(l)]
-    width=.4 if name.endswith('+3V3') else .35 if name.endswith('VBAT') else .25 if name.endswith(('VIN_DC','VSTOR','LBOOST')) else .2
+    width=.4 if name.endswith('+3V3') else .2
     print('Route',name,start,goal,flush=True);r=route(n,start,goal,sl,gl,width)
     if r is None:
         print('  No path',flush=True);continue
     add(n,r,start,goal,width);count+=1;p.SaveBoard(str(path),b);print('  Routed',len(r),'steps',flush=True)
 print('Completed',count,'routes',flush=True)
+
 
