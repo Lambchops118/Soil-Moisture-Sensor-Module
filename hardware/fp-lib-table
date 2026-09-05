@@ -1,0 +1,1 @@
+(fp_lib_table (version 7) (lib (name "SoilProbe")(type "KiCad")(uri "${KIPRJMOD}/SoilProbe.pretty")(options "")(descr "Covered probe and Eaton storage footprint")))

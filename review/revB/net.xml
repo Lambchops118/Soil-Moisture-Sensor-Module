@@ -1,0 +1,1560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\aljac\Desktop\Soil-Moisture-Sensor-Module\hardware\SoilMoistureSensor.kicad_sch</source>
+    <date>2026-09-04T22:13:51</date>
+    <tool>Eeschema 10.0.4</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Soil moisture sensor - solar / supercapacitor</title>
+        <company>BUTLER</company>
+        <rev>B</rev>
+        <date/>
+        <source>SoilMoistureSensor.kicad_sch</source>
+        <comment number="1" value="3.3 V / 750 mA buck; storage OV 4.97 V; enable 4.06 V / disable 3.63 V"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>4.7uF 10V X7R</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MoistureRevB" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="SoilMoistureSensor"/>
+      <property name="Sheetfile" value="SoilMoistureSensor.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a5b49dd2-2a68-46c0-97ef-908c7cdf50e8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>4.7uF 10V X7R</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MoistureRevB" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="SoilMoistureSensor"/>
+      <property name="Sheetfile" value="SoilMoistureSensor.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>87634049-0be5-4814-94d8-de7f573097d3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>100nF 10V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MoistureRevB" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="SoilMoistureSensor"/>
+      <property name="Sheetfile" value="SoilMoistureSensor.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>87bf424a-8f3e-4ab3-ab51-f7849b286151</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>10nF C0G 5%</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MoistureRevB" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="SoilMoistureSensor"/>
+      <property name="Sheetfile" value="SoilMoistureSensor.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>373ea7f0-f273-4494-b175-26ae31d2b012</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>100nF 10V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MoistureRevB" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="SoilMoistureSensor"/>
+      <property name="Sheetfile" value="SoilMoistureSensor.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c6f6e2da-295f-4502-8e5e-d21f99b58b5b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>10uF 10V X7R</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MoistureRevB" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="SoilMoistureSensor"/>
+      <property name="Sheetfile" value="SoilMoistureSensor.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>539dbec8-5ac6-4d40-b1d0-5f4968e678dc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>10uF 10V X7R</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MoistureRevB" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="SoilMoistureSensor"/>
+      <property name="Sheetfile" value="SoilMoistureSensor.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23cdd7d2-bde6-4c70-a4e9-488112b90df8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8">
+      <value>100nF 10V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MoistureRevB" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="SoilMoistureSensor"/>
+      <property name="Sheetfile" value="SoilMoistureSensor.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>83e2b0ae-d867-430b-9b99-b4a0eba4173a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C9">
+      <value>100nF 10V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MoistureRevB" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="SoilMoistureSensor"/>
+      <property name="Sheetfile" value="SoilMoistureSensor.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0c46f861-2ffe-48e2-97cc-5a05a69895e5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C10">
+      <value>100nF 10V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MoistureRevB" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="SoilMoistureSensor"/>
+      <property name="Sheetfile" value="SoilMoistureSensor.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8107895d-f5c2-4655-970e-e72d87527d68</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C11">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MoistureRevB" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="SoilMoistureSensor"/>
+      <property name="Sheetfile" value="SoilMoistureSensor.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cacd4c2b-fc46-43e1-a586-cb6c0b37b07a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C12">
+      <value>10uF 10V X7R</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MoistureRevB" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="SoilMoistureSensor"/>
+      <property name="Sheetfile" value="SoilMoistureSensor.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>785ca57d-7f9a-44e0-87a3-6d4a603b8b3e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MoistureRevB" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="SoilMoistureSensor"/>
+      <property name="Sheetfile" value="SoilMoistureSensor.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>711a480d-67f1-4c8b-a79e-ffb68ad27f6f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x04</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MoistureRevB" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="SoilMoistureSensor"/>
+      <property name="Sheetfile" value="SoilMoistureSensor.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4e0cc108-94f1-4dee-8d72-17f6416b43ac</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MoistureRevB" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="SoilMoistureSensor"/>
+      <property name="Sheetfile" value="SoilMoistureSensor.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a5c1c45-3d1f-4918-b6fa-0e9aec5ca18b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>PCB capacitive probe</value>
+      <footprint>SoilProbe:SoilProbe_IDC_40x30mm</footprint>
+      <fields>
+        <field name="Footprint">SoilProbe:SoilProbe_IDC_40x30mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MoistureRevB" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="SoilMoistureSensor"/>
+      <property name="Sheetfile" value="SoilMoistureSensor.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f607d38d-c3d0-47bb-b91a-82edaaf57414</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L1">
+      <value>22uH / Isat &gt;= 0.4A</value>
+      <footprint>Inductor_SMD:L_Coilcraft_LPS4018</footprint>
+      <fields>
+        <field name="Footprint">Inductor_SMD:L_Coilcraft_LPS4018</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MoistureRevB" part="L" description="Inductor"/>
+      <property name="Sheetname" value="SoilMoistureSensor"/>
+      <property name="Sheetfile" value="SoilMoistureSensor.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1081754e-1012-4817-92d6-109c35ea6c1f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L2">
+      <value>2.2uH / Isat &gt;= 1.5A</value>
+      <footprint>Inductor_SMD:L_Coilcraft_LPS4018</footprint>
+      <fields>
+        <field name="Footprint">Inductor_SMD:L_Coilcraft_LPS4018</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MoistureRevB" part="L" description="Inductor"/>
+      <property name="Sheetname" value="SoilMoistureSensor"/>
+      <property name="Sheetfile" value="SoilMoistureSensor.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>93d52f45-b1c5-4e29-b54b-a5f67f6e76a7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q1">
+      <value>AO3401A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MoistureRevB" part="AO3401A" description="-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value="SoilMoistureSensor"/>
+      <property name="Sheetfile" value="SoilMoistureSensor.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3a6556e3-fafb-4c49-87ca-ffa44530decc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>4.75M 1%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MoistureRevB" part="R" description="Resistor"/>
+      <property name="Sheetname" value="SoilMoistureSensor"/>
+      <property name="Sheetfile" value="SoilMoistureSensor.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a3f9e91a-a5aa-4780-b3a3-eb4f74e957c6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>8.25M 1%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MoistureRevB" part="R" description="Resistor"/>
+      <property name="Sheetname" value="SoilMoistureSensor"/>
+      <property name="Sheetfile" value="SoilMoistureSensor.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3b2c71f-f5e5-45d2-9f79-c75376f8dca6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>2.49M 1%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MoistureRevB" part="R" description="Resistor"/>
+      <property name="Sheetname" value="SoilMoistureSensor"/>
+      <property name="Sheetfile" value="SoilMoistureSensor.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0dc0ac25-2f9b-4f22-9ae8-172efe4d9398</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>4.99M 1%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MoistureRevB" part="R" description="Resistor"/>
+      <property name="Sheetname" value="SoilMoistureSensor"/>
+      <property name="Sheetfile" value="SoilMoistureSensor.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>71724f35-dc5a-4039-9249-39a0ac1675bf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>866k 1%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MoistureRevB" part="R" description="Resistor"/>
+      <property name="Sheetname" value="SoilMoistureSensor"/>
+      <property name="Sheetfile" value="SoilMoistureSensor.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be1704a1-a05a-4cc6-9388-9f23b7b50b94</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MoistureRevB" part="R" description="Resistor"/>
+      <property name="Sheetname" value="SoilMoistureSensor"/>
+      <property name="Sheetfile" value="SoilMoistureSensor.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>84c8ddca-8c41-4172-8947-4d97baa9a0be</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MoistureRevB" part="R" description="Resistor"/>
+      <property name="Sheetname" value="SoilMoistureSensor"/>
+      <property name="Sheetfile" value="SoilMoistureSensor.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1cb8e0a7-b88e-4850-9d2e-b0094ed8c14c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MoistureRevB" part="R" description="Resistor"/>
+      <property name="Sheetname" value="SoilMoistureSensor"/>
+      <property name="Sheetfile" value="SoilMoistureSensor.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30f9b0d4-de36-4200-989e-496dbb2dd336</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MoistureRevB" part="R" description="Resistor"/>
+      <property name="Sheetname" value="SoilMoistureSensor"/>
+      <property name="Sheetfile" value="SoilMoistureSensor.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>59f3de3a-c25b-41ca-8458-f75264750ba1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MoistureRevB" part="R" description="Resistor"/>
+      <property name="Sheetname" value="SoilMoistureSensor"/>
+      <property name="Sheetfile" value="SoilMoistureSensor.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3eddc19d-068f-4cda-b12a-8252d3285167</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R13">
+      <value>47k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MoistureRevB" part="R" description="Resistor"/>
+      <property name="Sheetname" value="SoilMoistureSensor"/>
+      <property name="Sheetfile" value="SoilMoistureSensor.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b6066333-1334-41f9-86e1-0b90f29f2abc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MoistureRevB" part="R" description="Resistor"/>
+      <property name="Sheetname" value="SoilMoistureSensor"/>
+      <property name="Sheetfile" value="SoilMoistureSensor.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4086bfdc-02be-4d9c-bfa4-f0fa37f838e4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MoistureRevB" part="R" description="Resistor"/>
+      <property name="Sheetname" value="SoilMoistureSensor"/>
+      <property name="Sheetfile" value="SoilMoistureSensor.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a1dfdab9-396c-498d-b514-692aada0a4f6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R16">
+      <value>52.3k 1%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MoistureRevB" part="R" description="Resistor"/>
+      <property name="Sheetname" value="SoilMoistureSensor"/>
+      <property name="Sheetfile" value="SoilMoistureSensor.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c2bb2b5c-ccfa-492a-b087-a6c7df4544de</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="RV1">
+      <value>100k trim</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MoistureRevB" part="R_Potentiometer_Trim" description="Trim-potentiometer"/>
+      <property name="Sheetname" value="SoilMoistureSensor"/>
+      <property name="Sheetfile" value="SoilMoistureSensor.kicad_sch"/>
+      <property name="ki_keywords" value="resistor variable trimpot trimmer"/>
+      <property name="ki_fp_filters" value="Potentiometer*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e488e62-7303-41b2-ba11-768d8717a462</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SC1">
+      <value>3F 5.4V PHV-5R4V305-R</value>
+      <footprint>SoilProbe:CP_Eaton_PHV_3F_Vertical_P11.8mm</footprint>
+      <fields>
+        <field name="Footprint">SoilProbe:CP_Eaton_PHV_3F_Vertical_P11.8mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MoistureRevB" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="SoilMoistureSensor"/>
+      <property name="Sheetfile" value="SoilMoistureSensor.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>31a90bc2-78cf-4d79-a876-ffa534a0aac1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_SPST_TL3342</footprint>
+      <fields>
+        <field name="Footprint">Button_Switch_SMD:SW_SPST_TL3342</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MoistureRevB" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value="SoilMoistureSensor"/>
+      <property name="Sheetfile" value="SoilMoistureSensor.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2a2430a-29a1-44c8-a5ea-18506f495edf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_SPST_TL3342</footprint>
+      <fields>
+        <field name="Footprint">Button_Switch_SMD:SW_SPST_TL3342</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MoistureRevB" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value="SoilMoistureSensor"/>
+      <property name="Sheetfile" value="SoilMoistureSensor.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a3e7f599-99ac-40a2-a96b-f89e6d8fe0ca</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>BQ25570</value>
+      <footprint>Package_DFN_QFN:QFN-20-1EP_3.5x3.5mm_P0.5mm_EP2x2mm</footprint>
+      <fields>
+        <field name="Footprint">Package_DFN_QFN:QFN-20-1EP_3.5x3.5mm_P0.5mm_EP2x2mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MoistureRevB" part="BQ25570" description="Nano Power Boost Charger and Buck Converter for Energy Harvester Powered Applications, QFN-20"/>
+      <property name="Sheetname" value="SoilMoistureSensor"/>
+      <property name="Sheetfile" value="SoilMoistureSensor.kicad_sch"/>
+      <property name="ki_keywords" value="harvester solar TEG charger li-on buck"/>
+      <property name="ki_fp_filters" value="QFN*1EP*3.5x3.5mm*P0.5mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1f167d3-1b80-492e-aba5-780557f3e155</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="20"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="4"/>
+            <pin num="2"/>
+            <pin num="19"/>
+            <pin num="1"/>
+            <pin num="9"/>
+            <pin num="15"/>
+            <pin num="17"/>
+            <pin num="21"/>
+            <pin num="18"/>
+            <pin num="16"/>
+            <pin num="14"/>
+            <pin num="13"/>
+            <pin num="8"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="7"/>
+            <pin num="12"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>ESP32-C3-WROOM-02</value>
+      <footprint>RF_Module:ESP32-C3-WROOM-02</footprint>
+      <fields>
+        <field name="Footprint">RF_Module:ESP32-C3-WROOM-02</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MoistureRevB" part="ESP32-C3-WROOM-02" description="802.11 b/g/n Wi­Fi and Bluetooth 5 module, ESP32­C3 SoC, RISC­V microprocessor, On-board antenna"/>
+      <property name="Sheetname" value="SoilMoistureSensor"/>
+      <property name="Sheetfile" value="SoilMoistureSensor.kicad_sch"/>
+      <property name="ki_keywords" value="esp32 espressif WiFi Bluetooth LE"/>
+      <property name="ki_fp_filters" value="ESP32?C3*WROOM?02*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e81d6f6f-e1c9-43d8-aea6-fde81cd50c94</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="18"/>
+            <pin num="17"/>
+            <pin num="16"/>
+            <pin num="15"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="10"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="1"/>
+            <pin num="9"/>
+            <pin num="19"/>
+            <pin num="11"/>
+            <pin num="12"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>TLC555xD</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MoistureRevB" part="TLC555xD" description="Single LinCMOS Timer, 555 compatible, SOIC-8"/>
+      <property name="Sheetname" value="SoilMoistureSensor"/>
+      <property name="Sheetfile" value="SoilMoistureSensor.kicad_sch"/>
+      <property name="ki_keywords" value="single timer 555"/>
+      <property name="ki_fp_filters" value="SOIC*3.9x4.9mm*P1.27mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2edf9ff3-e6e9-4a99-8de2-31fd4a82b644</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="4"/>
+            <pin num="7"/>
+            <pin num="6"/>
+            <pin num="2"/>
+            <pin num="5"/>
+            <pin num="1"/>
+            <pin num="8"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U4">
+      <value>TPS62842DGRR</value>
+      <footprint>Package_SO:HVSSOP-8-1EP_3x3mm_P0.65mm_EP1.57x1.89mm</footprint>
+      <fields>
+        <field name="Footprint">Package_SO:HVSSOP-8-1EP_3x3mm_P0.65mm_EP1.57x1.89mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MoistureRevB" part="TPS62842DGR" description=""/>
+      <property name="Sheetname" value="SoilMoistureSensor"/>
+      <property name="Sheetfile" value="SoilMoistureSensor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f2e9f73f-c4f3-49ac-88ee-8f9b87a89f1e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="6"/>
+            <pin num="5"/>
+            <pin num="3"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="7"/>
+            <pin num="2"/>
+            <pin num="1"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="MoistureRevB" part="AO3401A">
+      <description>-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <docs>http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">AO3401A</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</field>
+        <field name="Description">-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MoistureRevB" part="BQ25570">
+      <description>Nano Power Boost Charger and Buck Converter for Energy Harvester Powered Applications, QFN-20</description>
+      <docs>http://www.ti.com/lit/ds/symlink/bq25570.pdf</docs>
+      <footprints>
+        <fp>QFN*1EP*3.5x3.5mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BQ25570</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-20-1EP_3.5x3.5mm_P0.5mm_EP2x2mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/bq25570.pdf</field>
+        <field name="Description">Nano Power Boost Charger and Buck Converter for Energy Harvester Powered Applications, QFN-20</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VSS" type="power_in"/>
+        <pin num="2" name="VIN_DC" type="power_in"/>
+        <pin num="3" name="VOC_SAMP" type="input"/>
+        <pin num="4" name="VREF_SAMP" type="passive"/>
+        <pin num="5" name="~{EN}" type="input"/>
+        <pin num="6" name="VOUT_EN" type="input"/>
+        <pin num="7" name="VBAT_OV" type="input"/>
+        <pin num="8" name="VRDIV" type="output"/>
+        <pin num="9" name="VSS" type="passive"/>
+        <pin num="10" name="OK_HYST" type="input"/>
+        <pin num="11" name="OK_PROG" type="input"/>
+        <pin num="12" name="VOUT_SET" type="input"/>
+        <pin num="13" name="VBAT_OK" type="output"/>
+        <pin num="14" name="VOUT" type="input"/>
+        <pin num="15" name="VSS" type="passive"/>
+        <pin num="16" name="LBUCK" type="passive"/>
+        <pin num="17" name="VSS" type="passive"/>
+        <pin num="18" name="VBAT" type="power_in"/>
+        <pin num="19" name="VSTOR" type="power_out"/>
+        <pin num="20" name="LBOOST" type="passive"/>
+        <pin num="21" name="VSS" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MoistureRevB" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MoistureRevB" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Polarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MoistureRevB" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MoistureRevB" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MoistureRevB" part="ESP32-C3-WROOM-02">
+      <description>802.11 b/g/n Wi­Fi and Bluetooth 5 module, ESP32­C3 SoC, RISC­V microprocessor, On-board antenna</description>
+      <docs>https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf</docs>
+      <footprints>
+        <fp>ESP32?C3*WROOM?02*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-C3-WROOM-02</field>
+        <field name="Footprint">RF_Module:ESP32-C3-WROOM-02</field>
+        <field name="Datasheet">https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf</field>
+        <field name="Description">802.11 b/g/n Wi­Fi and Bluetooth 5 module, ESP32­C3 SoC, RISC­V microprocessor, On-board antenna</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3" type="power_in"/>
+        <pin num="2" name="EN" type="input"/>
+        <pin num="3" name="IO4" type="bidirectional"/>
+        <pin num="4" name="IO5" type="bidirectional"/>
+        <pin num="5" name="IO6" type="bidirectional"/>
+        <pin num="6" name="IO7" type="bidirectional"/>
+        <pin num="7" name="IO8" type="bidirectional"/>
+        <pin num="8" name="IO9" type="bidirectional"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="IO10" type="bidirectional"/>
+        <pin num="11" name="IO20/RXD" type="bidirectional"/>
+        <pin num="12" name="IO21/TXD" type="bidirectional"/>
+        <pin num="13" name="IO18" type="bidirectional"/>
+        <pin num="14" name="IO19" type="bidirectional"/>
+        <pin num="15" name="IO3" type="bidirectional"/>
+        <pin num="16" name="IO2" type="bidirectional"/>
+        <pin num="17" name="IO1" type="bidirectional"/>
+        <pin num="18" name="IO0" type="bidirectional"/>
+        <pin num="19" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MoistureRevB" part="L">
+      <description>Inductor</description>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Inductor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MoistureRevB" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MoistureRevB" part="R_Potentiometer_Trim">
+      <description>Trim-potentiometer</description>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer_Trim</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Trim-potentiometer</field>
+        <field name="Sim.Device">R</field>
+        <field name="Sim.Type">POT</field>
+        <field name="Sim.Pins">1=r0 2=wiper 3=r1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MoistureRevB" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MoistureRevB" part="TLC555xD">
+      <description>Single LinCMOS Timer, 555 compatible, SOIC-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tlc555.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLC555xD</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tlc555.pdf</field>
+        <field name="Description">Single LinCMOS Timer, 555 compatible, SOIC-8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="TRIG" type="input"/>
+        <pin num="3" name="OUT" type="output"/>
+        <pin num="4" name="~{RST}" type="input"/>
+        <pin num="5" name="CONT" type="passive"/>
+        <pin num="6" name="THRES" type="input"/>
+        <pin num="7" name="DISCH" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MoistureRevB" part="TPS62842DGR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS62842DGR</field>
+        <field name="Footprint">Package_SO:HVSSOP-8-1EP_3x3mm_P0.65mm_EP1.57x1.89mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VOS" type="input"/>
+        <pin num="2" name="SW" type="output"/>
+        <pin num="3" name="MODE" type="input"/>
+        <pin num="4" name="VSET" type="input"/>
+        <pin num="5" name="EN" type="input"/>
+        <pin num="6" name="VIN" type="power_in"/>
+        <pin num="7" name="NC" type="no_connect"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="EP" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="MoistureRevB">
+      <uri>${KIPRJMOD}/MoistureRevB.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/+3V3" class="Default">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="3V3_1" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="VOS_1" pintype="input"/>
+    </net>
+    <net code="2" name="/BAT_OK" class="Default">
+      <node ref="U1" pin="13" pinfunction="VBAT_OK_13" pintype="output"/>
+      <node ref="U4" pin="5" pinfunction="EN_5" pintype="input"/>
+    </net>
+    <net code="3" name="/BUCK_SW" class="Default">
+      <node ref="L2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="SW_2" pintype="output"/>
+    </net>
+    <net code="4" name="/BUCK_VSET" class="Default">
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="VSET_4" pintype="input"/>
+    </net>
+    <net code="5" name="/CTRL_BP" class="Default">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="CONT_5" pintype="passive"/>
+    </net>
+    <net code="6" name="/EN_ESP" class="Default">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="EN_2" pintype="input"/>
+    </net>
+    <net code="7" name="/ESP_RXD" class="Default">
+      <node ref="J2" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="IO20/RXD_11" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/ESP_TXD" class="Default">
+      <node ref="J2" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="IO21/TXD_12" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/FREQ_IN" class="Default">
+      <node ref="U2" pin="4" pinfunction="IO5_4" pintype="bidirectional"/>
+      <node ref="U3" pin="3" pinfunction="OUT_3" pintype="output"/>
+    </net>
+    <net code="10" name="/GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="SC1" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VSS_1" pintype="power_in"/>
+      <node ref="U1" pin="12" pinfunction="VOUT_SET_12" pintype="input"/>
+      <node ref="U1" pin="15" pinfunction="VSS_15" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="VSS_17" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="VSS_21" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="~{EN}_5" pintype="input"/>
+      <node ref="U1" pin="6" pinfunction="VOUT_EN_6" pintype="input"/>
+      <node ref="U1" pin="9" pinfunction="VSS_9" pintype="passive"/>
+      <node ref="U2" pin="19" pinfunction="GND_19" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="GND_9" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="GND_1" pintype="power_in"/>
+      <node ref="U4" pin="3" pinfunction="MODE_3" pintype="input"/>
+      <node ref="U4" pin="8" pinfunction="GND_8" pintype="power_in"/>
+      <node ref="U4" pin="9" pinfunction="EP_9" pintype="power_in"/>
+    </net>
+    <net code="11" name="/GPIO2_BOOT" class="Default">
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U2" pin="16" pinfunction="IO2_16" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/GPIO8_BOOT" class="Default">
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="IO8_7" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/GPIO9_BOOT" class="Default">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="IO9_8" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/LBOOST" class="Default">
+      <node ref="L1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="LBOOST_20" pintype="passive"/>
+    </net>
+    <net code="15" name="/OK_HYST_N" class="Default">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="OK_HYST_10" pintype="input"/>
+    </net>
+    <net code="16" name="/OK_PROG_N" class="Default">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="OK_PROG_11" pintype="input"/>
+    </net>
+    <net code="17" name="/OSC_RC" class="Default">
+      <node ref="J3" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="RV1" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="TRIG_2" pintype="input"/>
+      <node ref="U3" pin="6" pinfunction="THRES_6" pintype="input"/>
+    </net>
+    <net code="18" name="/OSC_RC_DISCH" class="Default">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="DISCH_7" pintype="input"/>
+    </net>
+    <net code="19" name="/RV1_WIPER_TIE" class="Default">
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="RV1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="RV1" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="20" name="/SENSOR_GATE" class="Default">
+      <node ref="Q1" pin="1" pinfunction="G_1" pintype="input"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="21" name="/SENSOR_PWR_EN" class="Default">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="IO4_3" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/VBAT" class="Default">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="SC1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="VBAT_18" pintype="power_in"/>
+      <node ref="U4" pin="6" pinfunction="VIN_6" pintype="power_in"/>
+    </net>
+    <net code="23" name="/VBAT_OV_N" class="Default">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="VBAT_OV_7" pintype="input"/>
+    </net>
+    <net code="24" name="/VCC_SENSOR" class="Default">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D_3" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="~{RST}_4" pintype="input"/>
+      <node ref="U3" pin="8" pinfunction="VCC_8" pintype="power_in"/>
+    </net>
+    <net code="25" name="/VIN_DC" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VIN_DC_2" pintype="power_in"/>
+    </net>
+    <net code="26" name="/VRDIV" class="Default">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="VRDIV_8" pintype="output"/>
+    </net>
+    <net code="27" name="/VREF_SAMP" class="Default">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="VREF_SAMP_4" pintype="passive"/>
+    </net>
+    <net code="28" name="/VSTOR" class="Default">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="VSTOR_19" pintype="power_out"/>
+      <node ref="U1" pin="3" pinfunction="VOC_SAMP_3" pintype="input"/>
+    </net>
+    <net code="29" name="unconnected-(U1-LBUCK-Pad16)" class="Default">
+      <node ref="U1" pin="16" pinfunction="LBUCK_16" pintype="passive+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(U1-VOUT-Pad14)" class="Default">
+      <node ref="U1" pin="14" pinfunction="VOUT_14" pintype="input+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(U2-IO0-Pad18)" class="Default">
+      <node ref="U2" pin="18" pinfunction="IO0_18" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(U2-IO1-Pad17)" class="Default">
+      <node ref="U2" pin="17" pinfunction="IO1_17" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U2-IO3-Pad15)" class="Default">
+      <node ref="U2" pin="15" pinfunction="IO3_15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U2-IO6-Pad5)" class="Default">
+      <node ref="U2" pin="5" pinfunction="IO6_5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U2-IO7-Pad6)" class="Default">
+      <node ref="U2" pin="6" pinfunction="IO7_6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U2-IO10-Pad10)" class="Default">
+      <node ref="U2" pin="10" pinfunction="IO10_10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U2-IO18-Pad13)" class="Default">
+      <node ref="U2" pin="13" pinfunction="IO18_13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U2-IO19-Pad14)" class="Default">
+      <node ref="U2" pin="14" pinfunction="IO19_14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U4-NC-Pad7)" class="Default">
+      <node ref="U4" pin="7" pinfunction="NC_7" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

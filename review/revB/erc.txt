@@ -1,0 +1,18 @@
+ERC report (2026-09-04T22:11:14, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[footprint_link_issues]: Footprint 'CP_Eaton_PHV_3F_Vertical_P11.8mm' not found in library 'SoilProbe'
+    ; warning
+    @(226.06 mm, 78.74 mm): Symbol SC1 [C_Polarized]
+[footprint_link_issues]: Footprint 'SoilProbe_IDC_40x30mm' not found in library 'SoilProbe'
+    ; warning
+    @(541.02 mm, 281.94 mm): Symbol J4 [Conn_01x02]
+
+ ** ERC messages: 2  Errors 0  Warnings 2
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters
