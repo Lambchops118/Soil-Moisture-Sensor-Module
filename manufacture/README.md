@@ -16,6 +16,10 @@ placements are on the **top side**, so order single-side assembly. Extended part
 are still required; this is not a Basic-only assembly. Let JLCPCB provide the assembly
 fixture/rails required for the narrow, pointed outline; these are single-board files.
 
+No via drill breaks into an SMD pad's soldermask aperture; the six vias inside U4's
+exposed thermal pad are deliberate. Verify with `../scripts/check_via_in_pad.py`
+after any re-route.
+
 Keep mask over the entire capacitive comb and keep the tip free of copper.
 Do not let an automated "exposed test pad" change remove the probe mask.
 The 1.6 mm specification matches the saved PCB and JST's 0.8–1.6 mm board range.

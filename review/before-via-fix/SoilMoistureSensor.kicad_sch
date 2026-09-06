@@ -1,0 +1,11133 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(uuid "79d9ef7d-7411-4059-b8f4-932a051f5864")
+	(paper "A2")
+	(title_block
+		(title "Soil moisture sensor - solar / supercapacitor")
+		(rev "B")
+		(company "BUTLER")
+		(comment 1 "3.3 V / 750 mA buck; storage OV 4.99 V; enable 4.08 V / disable 3.63 V")
+	)
+	(lib_symbols
+		(symbol "MoistureRevB:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762)
+						(xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762)
+						(xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MoistureRevB:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MoistureRevB:Conn_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MoistureRevB:L"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MoistureRevB:AO3401A"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(symbol "AO3401A_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905)
+						(xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0)
+						(xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286)
+						(xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778)
+						(xy 3.302 1.778)
+						(xy 3.302 -1.778)
+						(xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508)
+						(xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27)
+						(xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0)
+						(xy 1.27 0.381)
+						(xy 1.27 -0.381)
+						(xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54)
+						(xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54)
+						(xy 2.54 0)
+						(xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508)
+						(xy 2.921 -0.381)
+						(xy 3.683 -0.381)
+						(xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381)
+						(xy 2.921 0.254)
+						(xy 3.683 0.254)
+						(xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AO3401A_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AO3401A"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+				(at 5.08 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "P-Channel MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(symbol "MoistureRevB:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MoistureRevB:R_Potentiometer_Trim"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer_Trim"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Trim-potentiometer"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "POT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "resistor variable trimpot trimmer"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_Trim_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0.762)
+						(xy 1.524 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0)
+						(xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_Trim_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MoistureRevB:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286)
+						(xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794)
+						(xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MoistureRevB:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27)
+						(xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27)
+						(xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MoistureRevB:BQ25570"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -12.7 16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BQ25570"
+				(at 10.16 16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:QFN-20-1EP_3.5x3.5mm_P0.5mm_EP2x2mm"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/bq25570.pdf"
+				(at 10.16 30.48 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Nano Power Boost Charger and Buck Converter for Energy Harvester Powered Applications, QFN-20"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "harvester solar TEG charger li-on buck"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "QFN*1EP*3.5x3.5mm*P0.5mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BQ25570_0_1"
+				(rectangle
+					(start -12.7 15.24)
+					(end 12.7 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "BQ25570_1_1"
+				(pin power_in line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 17.78 270)
+					(length 2.54)
+					(name "VIN_DC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 2.54)
+					(name "VOC_SAMP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -12.7 0)
+					(length 2.54)
+					(name "VREF_SAMP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -2.54 0)
+					(length 2.54)
+					(name "~{EN}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -5.08 0)
+					(length 2.54)
+					(name "VOUT_EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -10.16 180)
+					(length 2.54)
+					(name "VBAT_OV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -2.54 180)
+					(length 2.54)
+					(name "VRDIV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(hide yes)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -5.08 180)
+					(length 2.54)
+					(name "OK_HYST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -7.62 180)
+					(length 2.54)
+					(name "OK_PROG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -12.7 180)
+					(length 2.54)
+					(name "VOUT_SET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 2.54 180)
+					(length 2.54)
+					(name "VBAT_OK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 7.62 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(hide yes)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 12.7 180)
+					(length 2.54)
+					(name "LBUCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(hide yes)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 17.78 270)
+					(length 2.54)
+					(name "VBAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 17.78 270)
+					(length 2.54)
+					(name "VSTOR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 12.7 0)
+					(length 2.54)
+					(name "LBOOST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(hide yes)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MoistureRevB:ESP32-C3-WROOM-02"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -12.192 21.336 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ESP32-C3-WROOM-02"
+				(at 12.192 21.336 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "RF_Module:ESP32-C3-WROOM-02"
+				(at 0 0.635 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf"
+				(at 0 0.635 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "802.11 b/g/n Wi­Fi and Bluetooth 5 module, ESP32­C3 SoC, RISC­V microprocessor, On-board antenna"
+				(at 0 0.635 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "esp32 espressif WiFi Bluetooth LE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "ESP32?C3*WROOM?02*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ESP32-C3-WROOM-02_1_1"
+				(rectangle
+					(start -12.7 20.32)
+					(end 12.7 -20.32)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 0 22.86 270)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 17.78 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 2.54 0)
+					(length 2.54)
+					(name "IO4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 0 0)
+					(length 2.54)
+					(name "IO5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -2.54 0)
+					(length 2.54)
+					(name "IO6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -5.08 0)
+					(length 2.54)
+					(name "IO7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -7.62 0)
+					(length 2.54)
+					(name "IO8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -10.16 0)
+					(length 2.54)
+					(name "IO9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -22.86 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -12.7 0)
+					(length 2.54)
+					(name "IO10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 17.78 180)
+					(length 2.54)
+					(name "IO20/RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 15.24 180)
+					(length 2.54)
+					(name "IO21/TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -15.24 0)
+					(length 2.54)
+					(name "IO18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -17.78 0)
+					(length 2.54)
+					(name "IO19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 5.08 0)
+					(length 2.54)
+					(name "IO3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 7.62 0)
+					(length 2.54)
+					(name "IO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 10.16 0)
+					(length 2.54)
+					(name "IO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 12.7 0)
+					(length 2.54)
+					(name "IO0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MoistureRevB:TLC555xD"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(symbol "TLC555xD_0_0"
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TLC555xD_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TLC555xD_1_1"
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "TRIG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "~{RST}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "CONT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "THRES"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "DISCH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+			(property "Reference" "U"
+				(at -10.16 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TLC555xD"
+				(at 2.54 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 0 -24.13 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlc555.pdf"
+				(at 0 -26.67 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Single LinCMOS Timer, 555 compatible, SOIC-8"
+				(at 0 -21.59 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "single timer 555"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(symbol "MoistureRevB:TPS62842DGR"
+			(pin_names
+				(offset 0.508)
+			)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TPS62842DGR"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:HVSSOP-8-1EP_3x3mm_P0.65mm_EP1.57x1.89mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPS62842DGR_0_1"
+				(rectangle
+					(start -10.16 10.16)
+					(end 10.16 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TPS62842DGR_1_1"
+				(pin power_in line
+					(at -15.24 7.62 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -2.54 0)
+					(length 5.08)
+					(name "MODE"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -15.24 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -15.24 90)
+					(length 5.08)
+					(name "EP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 -15.24 90)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 7.62 180)
+					(length 5.08)
+					(name "SW"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 2.54 180)
+					(length 5.08)
+					(name "VOS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "VSET"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "MoistureRevB:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 1.27)
+						(xy -1.016 1.905)
+						(xy 0 2.54)
+						(xy 1.016 1.905)
+						(xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "MoistureRevB:BQ25570")
+		(at 100.33 78.74 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1f167d3-1b80-492e-aba5-780557f3e155")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "U1"
+			(at 100.33 55.739999999999995 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "BQ25570"
+			(at 100.33 58.279999999999994 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-20-1EP_3.5x3.5mm_P0.5mm_EP2x2mm"
+			(at 100.33 78.74 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 100.33 78.74 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BQ25570RGRR"
+			(at 100.33 78.74 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C506250"
+			(at 100.33 78.74 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 100.33 78.74 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C506250.html"
+			(at 100.33 78.74 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 100.3300 96.5200)
+			(xy 100.3300 101.6000)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82089ed1-33eb-4955-b0e7-dd0bd2ab2eea")
+	)
+	(label "GND"
+		(at 100.3300 101.6000 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "c14608b1-de9a-4cf4-823b-041df8216c7a")
+	)
+	(wire
+		(pts
+			(xy 97.7900 60.9600)
+			(xy 97.7900 55.8800)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b401ac6-3406-439d-8204-548fe8141d38")
+	)
+	(label "VIN_DC"
+		(at 97.7900 55.8800 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8036df5-b654-4e00-82e3-2fe2ec4fd10c")
+	)
+	(wire
+		(pts
+			(xy 85.0900 76.2000)
+			(xy 80.0100 76.2000)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c21155a3-0761-4fa1-8881-4ed02bb62a5f")
+	)
+	(label "VSTOR"
+		(at 80.0100 76.2000 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "49dcda75-667d-4166-8672-f64352ed9aee")
+	)
+	(wire
+		(pts
+			(xy 85.0900 91.4400)
+			(xy 80.0100 91.4400)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f74b61b-0c34-40c5-9932-0c039e546f39")
+	)
+	(label "VREF_SAMP"
+		(at 80.0100 91.4400 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "430b3c70-53d5-417a-ac31-b2667874696b")
+	)
+	(wire
+		(pts
+			(xy 85.0900 81.2800)
+			(xy 80.0100 81.2800)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63cec470-ae76-46b5-87ed-b7f47a5924c2")
+	)
+	(label "GND"
+		(at 80.0100 81.2800 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "4624670e-eb7b-4bdf-aff6-7006295b6426")
+	)
+	(wire
+		(pts
+			(xy 85.0900 83.8200)
+			(xy 80.0100 83.8200)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6316f65-6a85-4901-a89c-36896e58bdbf")
+	)
+	(label "GND"
+		(at 80.0100 83.8200 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f193011-6ba6-4acb-b743-5a95c3868d23")
+	)
+	(wire
+		(pts
+			(xy 115.5700 88.9000)
+			(xy 120.6500 88.9000)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21d8be3c-b39c-4a1c-a8e0-055cfe4c508b")
+	)
+	(label "VBAT_OV_N"
+		(at 120.6500 88.9000 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "4c8dddd2-f163-4da7-b907-9bdaa6e699a7")
+	)
+	(wire
+		(pts
+			(xy 115.5700 81.2800)
+			(xy 120.6500 81.2800)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46a073fc-bff4-477c-b1d5-339af5f42419")
+	)
+	(label "VRDIV"
+		(at 120.6500 81.2800 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "53278b8f-4edc-4159-b4f7-ad8249eb600c")
+	)
+	(wire
+		(pts
+			(xy 115.5700 83.8200)
+			(xy 120.6500 83.8200)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7881b065-f6a8-43a2-98cf-ccd51dbab0c8")
+	)
+	(label "OK_HYST_N"
+		(at 120.6500 83.8200 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "84e30e97-3b63-4844-8579-ba65ae42928b")
+	)
+	(wire
+		(pts
+			(xy 115.5700 86.3600)
+			(xy 120.6500 86.3600)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "623ae8e8-0865-4609-baa5-261229e04f93")
+	)
+	(label "OK_PROG_N"
+		(at 120.6500 86.3600 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e9a7fac-0867-4bed-bbc8-572f58c18624")
+	)
+	(wire
+		(pts
+			(xy 115.5700 91.4400)
+			(xy 120.6500 91.4400)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b15a69a4-4fc2-434e-adf2-03b1fdcea02e")
+	)
+	(label "GND"
+		(at 120.6500 91.4400 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "583dcb75-c032-4a3e-9718-cc4d40fa62f2")
+	)
+	(wire
+		(pts
+			(xy 115.5700 76.2000)
+			(xy 120.6500 76.2000)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d762ea9-113c-4878-aa36-af0468723394")
+	)
+	(label "BAT_OK"
+		(at 120.6500 76.2000 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "236ad219-619a-42c5-a54e-a77be7aef933")
+	)
+	(no_connect
+		(at 115.57 71.11999999999999)
+		(uuid "bb106e67-8549-4fd6-a804-5d755bcc2b5f")
+	)
+	(no_connect
+		(at 115.57 66.03999999999999)
+		(uuid "babe278b-74a3-4876-b50d-45b87bc8e718")
+	)
+	(wire
+		(pts
+			(xy 102.8700 60.9600)
+			(xy 102.8700 55.8800)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48ba1acf-319b-46b1-b33d-4ef40537a9b3")
+	)
+	(label "VBAT"
+		(at 102.8700 55.8800 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "2773c762-e8e5-452b-8b5f-3f610b70374c")
+	)
+	(wire
+		(pts
+			(xy 100.3300 60.9600)
+			(xy 100.3300 55.8800)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b010650c-fd1f-41ef-8bc7-5164dc7aa327")
+	)
+	(label "VSTOR"
+		(at 100.3300 55.8800 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1012fa7-fef2-47eb-956d-3982ee58ba82")
+	)
+	(wire
+		(pts
+			(xy 85.0900 66.0400)
+			(xy 80.0100 66.0400)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e05b2f4b-540a-4483-9891-2d972df3f994")
+	)
+	(label "LBOOST"
+		(at 80.0100 66.0400 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "f5904bb7-7a87-4b1f-a9b0-f8425b09151b")
+	)
+	(symbol
+		(lib_id "MoistureRevB:Conn_01x02")
+		(at 38.1 48.26 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "711a480d-67f1-4c8b-a79e-ffb68ad27f6f")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "J1"
+			(at 38.1 25.259999999999998 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 38.1 27.799999999999997 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+			(at 38.1 48.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 38.1 48.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B2B-PH-K-S(LF)(SN)"
+			(at 38.1 48.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C131337"
+			(at 38.1 48.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "Hand solder"
+			(at 38.1 48.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C131337.html"
+			(at 38.1 48.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 33.0200 48.2600)
+			(xy 27.9400 48.2600)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c47049b-d565-4fc3-8ee6-ab3af4a46e29")
+	)
+	(label "VIN_DC"
+		(at 27.9400 48.2600 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a4d192b-a623-403d-9fda-569c1c6e7c8d")
+	)
+	(wire
+		(pts
+			(xy 33.0200 50.8000)
+			(xy 27.9400 50.8000)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "875cd3f7-6234-43be-8d87-980cae26c8e6")
+	)
+	(label "GND"
+		(at 27.9400 50.8000 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "6815872b-b85f-4b62-99ba-2628b41f17b3")
+	)
+	(symbol
+		(lib_id "MoistureRevB:L")
+		(at 38.1 81.28 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1081754e-1012-4817-92d6-109c35ea6c1f")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "L1"
+			(at 42.1 78.74 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uH / Isat >= 0.4A"
+			(at 42.1 81.28 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_Changjiang_FNR4018S"
+			(at 42.1 81.28 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Changjiang Microelectronics"
+			(at 38.1 81.28 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FNR4030S220MT"
+			(at 38.1 81.28 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C167883"
+			(at 38.1 81.28 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 38.1 81.28 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C167883.html"
+			(at 38.1 81.28 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 38.1000 77.4700)
+			(xy 38.1000 72.3900)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eed16909-6a9c-4143-982e-b62b613470aa")
+	)
+	(label "VIN_DC"
+		(at 38.1000 72.3900 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0b7839d-f6fc-4d3a-be95-55a3e6d9b6f6")
+	)
+	(wire
+		(pts
+			(xy 38.1000 85.0900)
+			(xy 38.1000 90.1700)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a463747-fb1e-4207-8d75-9bb6b787f424")
+	)
+	(label "LBOOST"
+		(at 38.1000 90.1700 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "11eaefc9-3d38-403a-9945-3e9a3126517c")
+	)
+	(symbol
+		(lib_id "MoistureRevB:C")
+		(at 38.1 116.84 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5b49dd2-2a68-46c0-97ef-908c7cdf50e8")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "C1"
+			(at 42.1 114.3 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF 25V X5R"
+			(at 42.1 116.84 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 42.1 116.84 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 38.1 116.84 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A475KAQNNNE"
+			(at 38.1 116.84 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1779"
+			(at 38.1 116.84 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 38.1 116.84 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C1779.html"
+			(at 38.1 116.84 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 38.1000 113.0300)
+			(xy 38.1000 107.9500)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75f65307-3570-48e2-868f-94ac5f3b55d5")
+	)
+	(label "VIN_DC"
+		(at 38.1000 107.9500 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "80322e83-5a9b-4c3e-9fe9-9cd777a773ca")
+	)
+	(wire
+		(pts
+			(xy 38.1000 120.6500)
+			(xy 38.1000 125.7300)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b5ca7a9-0328-45fd-aa10-088cc3ced208")
+	)
+	(label "GND"
+		(at 38.1000 125.7300 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "92afd83f-42ba-449e-b53b-f771659612bd")
+	)
+	(symbol
+		(lib_id "MoistureRevB:C")
+		(at 88.9 137.16 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87634049-0be5-4814-94d8-de7f573097d3")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "C2"
+			(at 92.9 134.62 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF 25V X5R"
+			(at 92.9 137.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 92.9 137.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 88.9 137.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A475KAQNNNE"
+			(at 88.9 137.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1779"
+			(at 88.9 137.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 88.9 137.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C1779.html"
+			(at 88.9 137.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 88.9000 133.3500)
+			(xy 88.9000 128.2700)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42158f89-9fd2-46f1-803c-73bff722ecc1")
+	)
+	(label "VSTOR"
+		(at 88.9000 128.2700 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "db364a4f-41ef-4c21-b904-71b37b19ddca")
+	)
+	(wire
+		(pts
+			(xy 88.9000 140.9700)
+			(xy 88.9000 146.0500)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae6b2034-b01a-4e18-a7c3-aedde32e40d4")
+	)
+	(label "GND"
+		(at 88.9000 146.0500 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "78267b7c-bac0-4f5e-9c73-bbfdcf093cf7")
+	)
+	(symbol
+		(lib_id "MoistureRevB:C")
+		(at 134.62 137.16 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87bf424a-8f3e-4ab3-ab51-f7849b286151")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "C3"
+			(at 138.62 134.62 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF 50V X7R"
+			(at 138.62 137.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 138.62 137.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 134.62 137.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0805KRX7R9BB104"
+			(at 134.62 137.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C49678"
+			(at 134.62 137.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 134.62 137.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C49678.html"
+			(at 134.62 137.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 134.6200 133.3500)
+			(xy 134.6200 128.2700)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d783a8da-0767-484f-bf51-4fa1ad16c3c0")
+	)
+	(label "VSTOR"
+		(at 134.6200 128.2700 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5c30592-b1fb-45a7-af33-f55606f2967b")
+	)
+	(wire
+		(pts
+			(xy 134.6200 140.9700)
+			(xy 134.6200 146.0500)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3f24ece-63cc-463b-b41e-66f83b2c5a4d")
+	)
+	(label "GND"
+		(at 134.6200 146.0500 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "55261091-813b-4975-893e-bd8950732417")
+	)
+	(symbol
+		(lib_id "MoistureRevB:C")
+		(at 180.34 137.16 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "373ea7f0-f273-4494-b175-26ae31d2b012")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "C4"
+			(at 184.34 134.62 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF C0G 5%"
+			(at 184.34 137.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 184.34 137.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 180.34 137.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM2195C1H103JA01D"
+			(at 180.34 137.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C97905"
+			(at 180.34 137.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 180.34 137.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C97905.html"
+			(at 180.34 137.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 180.3400 133.3500)
+			(xy 180.3400 128.2700)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "221d3fcf-1a02-4b8a-8a1d-dc7b452cc985")
+	)
+	(label "VREF_SAMP"
+		(at 180.3400 128.2700 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "ecc031ea-8573-449a-b205-2e312c917ca7")
+	)
+	(wire
+		(pts
+			(xy 180.3400 140.9700)
+			(xy 180.3400 146.0500)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4618625-3f2d-432f-beb1-d4b55a5e4ccc")
+	)
+	(label "GND"
+		(at 180.3400 146.0500 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae74d3c7-07fa-488d-9416-fe5d1b0e5dc5")
+	)
+	(symbol
+		(lib_id "MoistureRevB:C")
+		(at 226.06 137.16 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6f6e2da-295f-4502-8e5e-d21f99b58b5b")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "C5"
+			(at 230.06 134.62 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF 50V X7R"
+			(at 230.06 137.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 230.06 137.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 226.06 137.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0805KRX7R9BB104"
+			(at 226.06 137.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C49678"
+			(at 226.06 137.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 226.06 137.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C49678.html"
+			(at 226.06 137.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 226.0600 133.3500)
+			(xy 226.0600 128.2700)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02633c7a-4496-4194-9afd-0c3955bd0207")
+	)
+	(label "VBAT"
+		(at 226.0600 128.2700 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "b70a649e-8e08-4a1a-b40f-f0185d9ea605")
+	)
+	(wire
+		(pts
+			(xy 226.0600 140.9700)
+			(xy 226.0600 146.0500)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aef2f93e-413e-4f43-99b5-a0513370af7c")
+	)
+	(label "GND"
+		(at 226.0600 146.0500 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "c079a4e6-3555-4e42-a213-ea346edf099c")
+	)
+	(symbol
+		(lib_id "MoistureRevB:C_Polarized")
+		(at 226.06 78.74 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "31a90bc2-78cf-4d79-a876-ffa534a0aac1")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "SC1")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "SC1"
+			(at 230.06 76.19999999999999 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3F 5.4V PHV-5R4V305-R"
+			(at 230.06 78.74 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SoilProbe:CP_Eaton_PHV_3F_Vertical_P11.8mm"
+			(at 230.06 78.74 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Eaton"
+			(at 226.06 78.74 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PHV-5R4V305-R"
+			(at 226.06 78.74 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 226.06 78.74 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "Hand solder - external purchase"
+			(at 226.06 78.74 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.eaton.com/us/en-us/skuPage.PHV-5R4V305-R.html"
+			(at 226.06 78.74 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 226.0600 74.9300)
+			(xy 226.0600 69.8500)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25709f38-9281-4041-8aa0-4b710841134a")
+	)
+	(label "VBAT"
+		(at 226.0600 69.8500 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "880f2dc3-f65a-4bcf-b074-944b2fc64f84")
+	)
+	(wire
+		(pts
+			(xy 226.0600 82.5500)
+			(xy 226.0600 87.6300)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cb06c78-8e0e-42c7-8041-e2b9a4ea3b66")
+	)
+	(label "GND"
+		(at 226.0600 87.6300 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "dcf99a90-a149-4c7d-8c7a-6bdf82ef9bfb")
+	)
+	(symbol
+		(lib_id "MoistureRevB:R")
+		(at 180.34 48.26 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3f9e91a-a5aa-4780-b3a3-eb4f74e957c6")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "R1"
+			(at 184.34 45.72 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2M 1%"
+			(at 184.34 48.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 184.34 48.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 180.34 48.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF2004T5E"
+			(at 180.34 48.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22976"
+			(at 180.34 48.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 180.34 48.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C22976.html"
+			(at 180.34 48.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MoistureRevB:R")
+		(at 180.34 83.82 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3b2c71f-f5e5-45d2-9f79-c75376f8dca6")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "R2"
+			(at 184.34 81.27999999999999 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2M 1%"
+			(at 184.34 83.82 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 184.34 83.82 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 180.34 83.82 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF2004T5E"
+			(at 180.34 83.82 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22976"
+			(at 180.34 83.82 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 180.34 83.82 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C22976.html"
+			(at 180.34 83.82 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MoistureRevB:R")
+		(at 271.78 48.26 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0dc0ac25-2f9b-4f22-9ae8-172efe4d9398")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "R3"
+			(at 275.78 45.72 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2M 1%"
+			(at 275.78 48.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 275.78 48.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 271.78 48.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF2004T5E"
+			(at 271.78 48.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22976"
+			(at 271.78 48.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 271.78 48.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C22976.html"
+			(at 271.78 48.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MoistureRevB:R")
+		(at 271.78 83.82 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71724f35-dc5a-4039-9249-39a0ac1675bf")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "R4"
+			(at 275.78 81.27999999999999 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2M 1%"
+			(at 275.78 83.82 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 275.78 83.82 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 271.78 83.82 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF2004T5E"
+			(at 271.78 83.82 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22976"
+			(at 271.78 83.82 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 271.78 83.82 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C22976.html"
+			(at 271.78 83.82 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MoistureRevB:R")
+		(at 271.78 163.83 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be1704a1-a05a-4cc6-9388-9f23b7b50b94")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "R5"
+			(at 275.78 161.29 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.5M 1%"
+			(at 275.78 163.83 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 275.78 163.83 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 271.78 163.83 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1504T5E"
+			(at 271.78 163.83 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4172"
+			(at 271.78 163.83 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 271.78 163.83 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C4172.html"
+			(at 271.78 163.83 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MoistureRevB:ESP32-C3-WROOM-02")
+		(at 406.4 91.44 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e81d6f6f-e1c9-43d8-aea6-fde81cd50c94")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "U2"
+			(at 406.4 68.44 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "ESP32-C3-WROOM-02-N4"
+			(at 406.4 70.98 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "SoilProbe:ESP32-C3-WROOM-02_0.3mm_thermal_vias"
+			(at 406.4 91.44 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Espressif"
+			(at 406.4 91.44 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ESP32-C3-WROOM-02-N4"
+			(at 406.4 91.44 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2934560"
+			(at 406.4 91.44 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 406.4 91.44 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C2934560.html"
+			(at 406.4 91.44 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 406.4000 68.5800)
+			(xy 406.4000 63.5000)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c37653a-5b98-46f8-a0ad-3bc6b391fb8d")
+	)
+	(label "+3V3"
+		(at 406.4000 63.5000 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "bdb8bf7f-9d7f-49e8-8980-ef0e2fa2872e")
+	)
+	(wire
+		(pts
+			(xy 391.1600 73.6600)
+			(xy 386.0800 73.6600)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3c3a098-59bb-4495-875e-19bef43fdbc3")
+	)
+	(label "EN_ESP"
+		(at 386.0800 73.6600 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "44d60e9b-de35-4f77-9767-e88d572748bb")
+	)
+	(wire
+		(pts
+			(xy 391.1600 88.9000)
+			(xy 386.0800 88.9000)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "296e5804-b689-4c90-bf1a-7aac6053455c")
+	)
+	(label "SENSOR_PWR_EN"
+		(at 386.0800 88.9000 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "9956235c-3667-4a45-8a8e-b7a4f0e97fb4")
+	)
+	(wire
+		(pts
+			(xy 391.1600 91.4400)
+			(xy 386.0800 91.4400)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ac4e1bb-16b4-46e2-b18c-069fbc97c319")
+	)
+	(label "FREQ_IN"
+		(at 386.0800 91.4400 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f08c3dc-63e6-422b-96f6-7373973768d1")
+	)
+	(no_connect
+		(at 391.15999999999997 93.98)
+		(uuid "1e125656-e89f-44f7-8558-a7a067fd38c9")
+	)
+	(no_connect
+		(at 391.15999999999997 96.52)
+		(uuid "c6266f83-ed35-4891-88a7-0848dc46098e")
+	)
+	(wire
+		(pts
+			(xy 391.1600 99.0600)
+			(xy 386.0800 99.0600)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc43d692-d900-4a10-8f4e-96147b34b9f1")
+	)
+	(label "GPIO8_BOOT"
+		(at 386.0800 99.0600 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "5bb93565-dff6-4234-891e-723a737ae0c2")
+	)
+	(wire
+		(pts
+			(xy 391.1600 101.6000)
+			(xy 386.0800 101.6000)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdcf0fb5-9b9c-4668-b267-51b97330c4e2")
+	)
+	(label "GPIO9_BOOT"
+		(at 386.0800 101.6000 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "83fba314-e191-45e0-a140-f1b91c7c29a6")
+	)
+	(wire
+		(pts
+			(xy 406.4000 114.3000)
+			(xy 406.4000 119.3800)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7db5bd3b-bdad-4d9c-851b-69d1da2b032c")
+	)
+	(label "GND"
+		(at 406.4000 119.3800 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "881ac189-6dd1-4a47-a6ea-2e33a3b54bda")
+	)
+	(no_connect
+		(at 391.15999999999997 104.14)
+		(uuid "70cf7ba6-fe9f-4b5f-ad77-6421ecb21e30")
+	)
+	(wire
+		(pts
+			(xy 421.6400 73.6600)
+			(xy 426.7200 73.6600)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4a7b5a1-94d7-4ef2-a866-85b401e91bcc")
+	)
+	(label "ESP_RXD"
+		(at 426.7200 73.6600 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c5ff175-2669-48fe-bd47-c8c112751f36")
+	)
+	(wire
+		(pts
+			(xy 421.6400 76.2000)
+			(xy 426.7200 76.2000)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06b717ff-6d7d-49cf-9b17-c6ce5c7d3e56")
+	)
+	(label "ESP_TXD"
+		(at 426.7200 76.2000 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "332a189c-f772-4075-bdf2-2885f5dce0cd")
+	)
+	(no_connect
+		(at 391.15999999999997 106.67999999999999)
+		(uuid "a0d63eff-49aa-4683-ae10-5ffbe73e50c0")
+	)
+	(no_connect
+		(at 391.15999999999997 109.22)
+		(uuid "8312a05d-3cda-4879-bfc0-6ef66bacebfd")
+	)
+	(wire
+		(pts
+			(xy 391.1600 83.8200)
+			(xy 386.0800 83.8200)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3933e79-a696-40b6-9540-20ef7be95e4f")
+	)
+	(label "GPIO2_BOOT"
+		(at 386.0800 83.8200 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "447c3714-f8db-4ac5-8c93-fd096bfb8760")
+	)
+	(no_connect
+		(at 391.15999999999997 81.28)
+		(uuid "7c02d817-ebf7-4387-b5c7-ff77810f188d")
+	)
+	(no_connect
+		(at 391.15999999999997 78.74)
+		(uuid "ff1fcc57-2f38-4b26-9f59-789665e06309")
+	)
+	(symbol
+		(lib_id "MoistureRevB:C")
+		(at 330.2 48.26 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23cdd7d2-bde6-4c70-a4e9-488112b90df8")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "C7"
+			(at 334.2 45.72 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF 25V X5R"
+			(at 334.2 48.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 334.2 48.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 330.2 48.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A106KAYNNNE"
+			(at 330.2 48.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15850"
+			(at 330.2 48.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 330.2 48.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C15850.html"
+			(at 330.2 48.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 330.2000 44.4500)
+			(xy 330.2000 39.3700)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dff59233-acda-4a2f-9e09-945ffe9d922c")
+	)
+	(label "+3V3"
+		(at 330.2000 39.3700 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "00ad2e09-85a1-4249-86c3-379969ed1228")
+	)
+	(wire
+		(pts
+			(xy 330.2000 52.0700)
+			(xy 330.2000 57.1500)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54ffc858-5cd6-40f9-b372-a7422580ecea")
+	)
+	(label "GND"
+		(at 330.2000 57.1500 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f1eb203-decf-45ec-91d4-4e21e3ac4aab")
+	)
+	(symbol
+		(lib_id "MoistureRevB:C")
+		(at 330.2 83.82 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83e2b0ae-d867-430b-9b99-b4a0eba4173a")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "C8"
+			(at 334.2 81.27999999999999 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF 50V X7R"
+			(at 334.2 83.82 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 334.2 83.82 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 330.2 83.82 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0805KRX7R9BB104"
+			(at 330.2 83.82 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C49678"
+			(at 330.2 83.82 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 330.2 83.82 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C49678.html"
+			(at 330.2 83.82 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 330.2000 80.0100)
+			(xy 330.2000 74.9300)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22688251-ddfe-4d38-8c9c-1468fcfc004d")
+	)
+	(label "+3V3"
+		(at 330.2000 74.9300 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b249fed-2fd1-433f-b996-7c8fee4c3c7b")
+	)
+	(wire
+		(pts
+			(xy 330.2000 87.6300)
+			(xy 330.2000 92.7100)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d692d8d-ccd4-4627-b4a4-ebae075f22b7")
+	)
+	(label "GND"
+		(at 330.2000 92.7100 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "e92409ea-7f58-46be-8db0-26f765da47a4")
+	)
+	(symbol
+		(lib_id "MoistureRevB:R")
+		(at 330.2 119.38 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84c8ddca-8c41-4172-8947-4d97baa9a0be")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "R8"
+			(at 334.2 116.83999999999999 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 334.2 119.38 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 334.2 119.38 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 330.2 119.38 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0805W8F1002T5E"
+			(at 330.2 119.38 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17414"
+			(at 330.2 119.38 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 330.2 119.38 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C17414.html"
+			(at 330.2 119.38 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 330.2000 115.5700)
+			(xy 330.2000 110.4900)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34ec4187-ede7-43c2-81a1-835537c42615")
+	)
+	(label "+3V3"
+		(at 330.2000 110.4900 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "da0d8f71-c16d-41e9-9fcb-9b47284e3234")
+	)
+	(wire
+		(pts
+			(xy 330.2000 123.1900)
+			(xy 330.2000 128.2700)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9446c06-910c-49eb-8c4c-3df7d91f2fe4")
+	)
+	(label "EN_ESP"
+		(at 330.2000 128.2700 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "000d2a30-1a64-4b31-90f6-b5677f6e6919")
+	)
+	(symbol
+		(lib_id "MoistureRevB:C")
+		(at 330.2 154.94 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c46f861-2ffe-48e2-97cc-5a05a69895e5")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "C9"
+			(at 334.2 152.4 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF 50V X7R"
+			(at 334.2 154.94 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 334.2 154.94 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 330.2 154.94 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0805KRX7R9BB104"
+			(at 330.2 154.94 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C49678"
+			(at 330.2 154.94 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 330.2 154.94 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C49678.html"
+			(at 330.2 154.94 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 330.2000 151.1300)
+			(xy 330.2000 146.0500)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81c9ebaa-cd57-4853-824e-49c035f5d8db")
+	)
+	(label "EN_ESP"
+		(at 330.2000 146.0500 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "828af0a5-644b-4821-855d-6e8c3805e9e7")
+	)
+	(wire
+		(pts
+			(xy 330.2000 158.7500)
+			(xy 330.2000 163.8300)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79322d46-439d-43ab-bbdb-010558f06378")
+	)
+	(label "GND"
+		(at 330.2000 163.8300 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b469b6a-b9ed-49c5-b8ac-e1a8988044e1")
+	)
+	(symbol
+		(lib_id "MoistureRevB:SW_Push")
+		(at 388.62 154.94 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2a2430a-29a1-44c8-a5ea-18506f495edf")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "SW1"
+			(at 388.62 131.94 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "TS-1088-AR02016"
+			(at 388.62 134.48 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
+			(at 388.62 154.94 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XUNPU"
+			(at 388.62 154.94 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TS-1088-AR02016"
+			(at 388.62 154.94 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C720477"
+			(at 388.62 154.94 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 388.62 154.94 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C720477.html"
+			(at 388.62 154.94 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 383.5400 154.9400)
+			(xy 378.4600 154.9400)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a43e667-a79f-4c08-a1e5-fa805f2fdb39")
+	)
+	(label "EN_ESP"
+		(at 378.4600 154.9400 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c082a53-6a81-4952-a1f6-4dfde25f66d3")
+	)
+	(wire
+		(pts
+			(xy 393.7000 154.9400)
+			(xy 398.7800 154.9400)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dca99c7-af9a-42a8-8ceb-3e723b8ce4d6")
+	)
+	(label "GND"
+		(at 398.7800 154.9400 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3829538-0ce6-494c-be95-e983e2b9d988")
+	)
+	(symbol
+		(lib_id "MoistureRevB:SW_Push")
+		(at 454.66 154.94 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3e7f599-99ac-40a2-a96b-f89e6d8fe0ca")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "SW2"
+			(at 454.66 131.94 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "TS-1088-AR02016"
+			(at 454.66 134.48 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
+			(at 454.66 154.94 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XUNPU"
+			(at 454.66 154.94 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TS-1088-AR02016"
+			(at 454.66 154.94 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C720477"
+			(at 454.66 154.94 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 454.66 154.94 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C720477.html"
+			(at 454.66 154.94 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 449.5800 154.9400)
+			(xy 444.5000 154.9400)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b592242-7287-4ba4-ad86-8f28faf3cb4b")
+	)
+	(label "GPIO9_BOOT"
+		(at 444.5000 154.9400 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "17d7ea29-00a8-4011-86da-13b5a2406f25")
+	)
+	(wire
+		(pts
+			(xy 459.7400 154.9400)
+			(xy 464.8200 154.9400)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8596b110-a3bd-442f-9288-82affdb48d46")
+	)
+	(label "GND"
+		(at 464.8200 154.9400 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "054be5df-9837-474e-a051-348893310b32")
+	)
+	(symbol
+		(lib_id "MoistureRevB:R")
+		(at 480.06 48.26 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1cb8e0a7-b88e-4850-9d2e-b0094ed8c14c")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "R9"
+			(at 484.06 45.72 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 484.06 48.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 484.06 48.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 480.06 48.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0805W8F1002T5E"
+			(at 480.06 48.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17414"
+			(at 480.06 48.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 480.06 48.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C17414.html"
+			(at 480.06 48.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 480.0600 44.4500)
+			(xy 480.0600 39.3700)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cb388c2-fb18-4ec7-b7ae-a8bb637a2bc4")
+	)
+	(label "+3V3"
+		(at 480.0600 39.3700 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "68fff2f3-4b79-44c1-a8a6-39089974755a")
+	)
+	(wire
+		(pts
+			(xy 480.0600 52.0700)
+			(xy 480.0600 57.1500)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf6d5bd4-0f25-45a8-9595-fc146061977b")
+	)
+	(label "GPIO9_BOOT"
+		(at 480.0600 57.1500 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "32133cf2-ef58-4488-ae8d-33fd5ad26aad")
+	)
+	(symbol
+		(lib_id "MoistureRevB:R")
+		(at 480.06 83.82 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4086bfdc-02be-4d9c-bfa4-f0fa37f838e4")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "R14"
+			(at 484.06 81.27999999999999 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 484.06 83.82 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 484.06 83.82 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 480.06 83.82 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0805W8F1002T5E"
+			(at 480.06 83.82 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17414"
+			(at 480.06 83.82 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 480.06 83.82 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C17414.html"
+			(at 480.06 83.82 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 480.0600 80.0100)
+			(xy 480.0600 74.9300)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8bdbd1f-beb5-44ed-b941-267f9eb76e80")
+	)
+	(label "+3V3"
+		(at 480.0600 74.9300 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "d620bbbd-5377-4fef-ba08-d434b69e227b")
+	)
+	(wire
+		(pts
+			(xy 480.0600 87.6300)
+			(xy 480.0600 92.7100)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4905b57-edc0-4d8e-b351-7dde02bbf990")
+	)
+	(label "GPIO8_BOOT"
+		(at 480.0600 92.7100 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "fbf5bd26-8420-42c5-9a62-68cafb830a56")
+	)
+	(symbol
+		(lib_id "MoistureRevB:R")
+		(at 480.06 119.38 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1dfdab9-396c-498d-b514-692aada0a4f6")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "R15"
+			(at 484.06 116.83999999999999 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 484.06 119.38 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 484.06 119.38 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 480.06 119.38 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0805W8F1002T5E"
+			(at 480.06 119.38 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17414"
+			(at 480.06 119.38 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 480.06 119.38 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C17414.html"
+			(at 480.06 119.38 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 480.0600 115.5700)
+			(xy 480.0600 110.4900)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fd6f086-d430-4e8f-a53e-0881ab986779")
+	)
+	(label "+3V3"
+		(at 480.0600 110.4900 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "e1745e71-8931-48d3-8e0e-3dee817b939b")
+	)
+	(wire
+		(pts
+			(xy 480.0600 123.1900)
+			(xy 480.0600 128.2700)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04e61c20-4cf8-4be4-a709-99d018c65950")
+	)
+	(label "GPIO2_BOOT"
+		(at 480.0600 128.2700 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8f23273-26f6-4d69-a3aa-62280b4c3786")
+	)
+	(symbol
+		(lib_id "MoistureRevB:Conn_01x04")
+		(at 541.02 73.66 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "4e0cc108-94f1-4dee-8d72-17f6416b43ac")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "J2"
+			(at 541.02 50.66 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 541.02 53.199999999999996 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 541.02 73.66 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Ckmtw"
+			(at 541.02 73.66 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B-2100S04P-A110"
+			(at 541.02 73.66 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C124378"
+			(at 541.02 73.66 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "Hand solder"
+			(at 541.02 73.66 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C124378.html"
+			(at 541.02 73.66 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 535.9400 71.1200)
+			(xy 530.8600 71.1200)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80d38f2c-9ebb-4fa7-ae03-c5487314c113")
+	)
+	(label "+3V3"
+		(at 530.8600 71.1200 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "dbef8ca7-1855-4a92-a0b0-5569339e2527")
+	)
+	(wire
+		(pts
+			(xy 535.9400 73.6600)
+			(xy 530.8600 73.6600)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a520496-be94-4e5e-b6c0-a41325001c1b")
+	)
+	(label "GND"
+		(at 530.8600 73.6600 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "7863c5d1-aca0-4d4e-9e20-af1abf6d9a68")
+	)
+	(wire
+		(pts
+			(xy 535.9400 76.2000)
+			(xy 530.8600 76.2000)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c85a0d2-cf14-4abc-a282-29dcb81a9576")
+	)
+	(label "ESP_TXD"
+		(at 530.8600 76.2000 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f05204e-ebe7-427f-9329-c4115d194c93")
+	)
+	(wire
+		(pts
+			(xy 535.9400 78.7400)
+			(xy 530.8600 78.7400)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d53adc03-ce18-49c7-875d-e68feb1c9bd0")
+	)
+	(label "ESP_RXD"
+		(at 530.8600 78.7400 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5a31299-b5e7-408a-ac36-14e7f20f00fa")
+	)
+	(symbol
+		(lib_id "MoistureRevB:TPS62842DGR")
+		(at 100.33 233.68 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2e9f73f-c4f3-49ac-88ee-8f9b87a89f1e")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "U4"
+			(at 100.33 210.68 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "TPS62842DGRR"
+			(at 100.33 213.22 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:HVSSOP-8-1EP_3x3mm_P0.65mm_EP1.57x1.89mm"
+			(at 100.33 233.68 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 100.33 233.68 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TPS62842DGRR"
+			(at 100.33 233.68 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2873354"
+			(at 100.33 233.68 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 100.33 233.68 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C2873354.html"
+			(at 100.33 233.68 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 85.0900 226.0600)
+			(xy 80.0100 226.0600)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3069a28-39b4-45ab-bfe3-1010ff160256")
+	)
+	(label "VBAT"
+		(at 80.0100 226.0600 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "93fc20db-1d2d-4cfe-b8e5-41b98d747d02")
+	)
+	(wire
+		(pts
+			(xy 85.0900 231.1400)
+			(xy 80.0100 231.1400)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2428143a-6011-47ee-9b5c-d084a48575ad")
+	)
+	(label "BAT_OK"
+		(at 80.0100 231.1400 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "990daecc-ae18-4502-8d29-fa24e5f97cfc")
+	)
+	(wire
+		(pts
+			(xy 85.0900 236.2200)
+			(xy 80.0100 236.2200)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e237726-3e59-4d88-93be-c6ec644c3518")
+	)
+	(label "GND"
+		(at 80.0100 236.2200 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb37efc3-57b2-4e93-8a5c-7a23fb9d84d4")
+	)
+	(wire
+		(pts
+			(xy 95.2500 248.9200)
+			(xy 95.2500 254.0000)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6078d4ea-7469-4e04-bea8-7de8f0f4e8f7")
+	)
+	(label "GND"
+		(at 95.2500 254.0000 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "654319d4-9a41-4924-96c1-377b29600663")
+	)
+	(wire
+		(pts
+			(xy 100.3300 248.9200)
+			(xy 100.3300 254.0000)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78b6d777-8817-49e6-bbb2-531538cb7086")
+	)
+	(label "GND"
+		(at 100.3300 254.0000 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf3a11e6-2f96-4b03-846c-ed71acc391b8")
+	)
+	(no_connect
+		(at 105.41 248.92000000000002)
+		(uuid "32531eab-466c-494f-a960-4b6cb748423f")
+	)
+	(wire
+		(pts
+			(xy 115.5700 226.0600)
+			(xy 120.6500 226.0600)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56e6b6cf-e3ef-437a-9caf-919e227852df")
+	)
+	(label "BUCK_SW"
+		(at 120.6500 226.0600 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "0dff96a1-d24e-4f15-901a-86e4c6e236f1")
+	)
+	(wire
+		(pts
+			(xy 115.5700 231.1400)
+			(xy 120.6500 231.1400)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "334926a9-ebb7-4091-9e5b-6953886945d3")
+	)
+	(label "+3V3"
+		(at 120.6500 231.1400 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "67fee687-64ea-4442-ba1a-0bb48ec921ab")
+	)
+	(wire
+		(pts
+			(xy 115.5700 238.7600)
+			(xy 120.6500 238.7600)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35ea742e-7846-4282-875f-117f4f845f06")
+	)
+	(label "BUCK_VSET"
+		(at 120.6500 238.7600 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "3fe063e0-fbf6-4504-b8fe-3663dfff3850")
+	)
+	(symbol
+		(lib_id "MoistureRevB:L")
+		(at 177.8 205.74 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93d52f45-b1c5-4e29-b54b-a5f67f6e76a7")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "L2"
+			(at 181.8 203.20000000000002 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2uH / Isat >= 1.5A"
+			(at 181.8 205.74 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_Changjiang_FNR4018S"
+			(at 181.8 205.74 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Changjiang Microelectronics"
+			(at 177.8 205.74 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FNR4018S2R2MT"
+			(at 177.8 205.74 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C167804"
+			(at 177.8 205.74 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 177.8 205.74 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C167804.html"
+			(at 177.8 205.74 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 177.8000 201.9300)
+			(xy 177.8000 196.8500)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ab46e0a-3e1c-4b91-a8c2-0e667f59284e")
+	)
+	(label "BUCK_SW"
+		(at 177.8000 196.8500 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "13097b24-e658-49de-b65a-9414d21f393b")
+	)
+	(wire
+		(pts
+			(xy 177.8000 209.5500)
+			(xy 177.8000 214.6300)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70d2cd5c-1874-4c8a-9a8d-d61b516daede")
+	)
+	(label "+3V3"
+		(at 177.8000 214.6300 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "feaffd37-aa9c-477f-ab98-836c27b39eaa")
+	)
+	(symbol
+		(lib_id "MoistureRevB:R")
+		(at 177.8 243.84 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2bb2b5c-ccfa-492a-b087-a6c7df4544de")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "R16"
+			(at 181.8 241.3 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "52.3k 1%"
+			(at 181.8 243.84 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 181.8 243.84 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 177.8 243.84 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0805W8F5232T5E"
+			(at 177.8 243.84 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17740"
+			(at 177.8 243.84 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 177.8 243.84 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C17740.html"
+			(at 177.8 243.84 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 177.8000 240.0300)
+			(xy 177.8000 234.9500)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1196ce65-5758-4760-a8bf-d3c8533c5966")
+	)
+	(label "BUCK_VSET"
+		(at 177.8000 234.9500 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc44ce31-5117-46ba-8d39-c36e5f1495cd")
+	)
+	(wire
+		(pts
+			(xy 177.8000 247.6500)
+			(xy 177.8000 252.7300)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b24e2308-c59e-4c05-9766-2e711b87561a")
+	)
+	(label "GND"
+		(at 177.8000 252.7300 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b7d6172-aa01-451f-bb4c-0d4efd19fef2")
+	)
+	(symbol
+		(lib_id "MoistureRevB:C")
+		(at 38.1 233.68 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "785ca57d-7f9a-44e0-87a3-6d4a603b8b3e")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "C12"
+			(at 42.1 231.14000000000001 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF 25V X5R"
+			(at 42.1 233.68 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 42.1 233.68 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 38.1 233.68 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A106KAYNNNE"
+			(at 38.1 233.68 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15850"
+			(at 38.1 233.68 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 38.1 233.68 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C15850.html"
+			(at 38.1 233.68 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 38.1000 229.8700)
+			(xy 38.1000 224.7900)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caf050f8-fc57-4ac7-b4e0-b25fd3ed99ac")
+	)
+	(label "VBAT"
+		(at 38.1000 224.7900 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "982c8c10-ef33-4162-887f-45a60e4604c7")
+	)
+	(wire
+		(pts
+			(xy 38.1000 237.4900)
+			(xy 38.1000 242.5700)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "059356c7-fed4-46f1-9d60-7211ab5c2331")
+	)
+	(label "GND"
+		(at 38.1000 242.5700 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "34207e9e-0738-437e-b4c2-d0755ce5f52b")
+	)
+	(symbol
+		(lib_id "MoistureRevB:C")
+		(at 226.06 233.68 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "539dbec8-5ac6-4d40-b1d0-5f4968e678dc")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "C6"
+			(at 230.06 231.14000000000001 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF 25V X5R"
+			(at 230.06 233.68 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 230.06 233.68 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 226.06 233.68 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A106KAYNNNE"
+			(at 226.06 233.68 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15850"
+			(at 226.06 233.68 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 226.06 233.68 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C15850.html"
+			(at 226.06 233.68 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 226.0600 229.8700)
+			(xy 226.0600 224.7900)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e94bc502-dd3e-43e9-bca8-67225b4c0067")
+	)
+	(label "+3V3"
+		(at 226.0600 224.7900 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "2db9f0e2-b7f5-44d9-addb-c91ed4272489")
+	)
+	(wire
+		(pts
+			(xy 226.0600 237.4900)
+			(xy 226.0600 242.5700)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0bbdb60-40e4-4cd3-b800-e88e5968a3dc")
+	)
+	(label "GND"
+		(at 226.0600 242.5700 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "2eca4eff-2be4-47a1-87b9-a0631209b3d3")
+	)
+	(symbol
+		(lib_id "MoistureRevB:AO3401A")
+		(at 330.2 228.6 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a6556e3-fafb-4c49-87ca-ffa44530decc")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "Q1"
+			(at 330.2 205.6 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 330.2 208.14 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 330.2 228.6 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Alpha & Omega Semiconductor"
+			(at 330.2 228.6 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AO3401A"
+			(at 330.2 228.6 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15127"
+			(at 330.2 228.6 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 330.2 228.6 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C15127.html"
+			(at 330.2 228.6 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 325.1200 228.6000)
+			(xy 320.0400 228.6000)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7be0abe8-96e8-4116-baec-87028ead7490")
+	)
+	(label "SENSOR_GATE"
+		(at 320.0400 228.6000 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7368b4f-6fb9-47c1-aabf-ae4f6148c3dc")
+	)
+	(wire
+		(pts
+			(xy 332.7400 233.6800)
+			(xy 332.7400 238.7600)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21a68325-8560-4d89-a471-6979f0807140")
+	)
+	(label "+3V3"
+		(at 332.7400 238.7600 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "5cbf9b83-ce50-4da6-a04b-f4360cef0b27")
+	)
+	(wire
+		(pts
+			(xy 332.7400 223.5200)
+			(xy 332.7400 218.4400)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "713359fe-db48-4375-adbc-eeaf93059dfb")
+	)
+	(label "VCC_SENSOR"
+		(at 332.7400 218.4400 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc12a9b0-c3cd-4d5e-854d-860663fce88a")
+	)
+	(symbol
+		(lib_id "MoistureRevB:R")
+		(at 279.4 228.6 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30f9b0d4-de36-4200-989e-496dbb2dd336")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "R10"
+			(at 283.4 226.06 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 283.4 228.6 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 283.4 228.6 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 279.4 228.6 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0805W8F1001T5E"
+			(at 279.4 228.6 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17513"
+			(at 279.4 228.6 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 279.4 228.6 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C17513.html"
+			(at 279.4 228.6 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 279.4000 224.7900)
+			(xy 279.4000 219.7100)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99100a50-5d1f-4de1-b567-23b74cdaccdc")
+	)
+	(label "SENSOR_PWR_EN"
+		(at 279.4000 219.7100 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7ae0e74-7d5b-4340-8b2d-99949b9e2318")
+	)
+	(wire
+		(pts
+			(xy 279.4000 232.4100)
+			(xy 279.4000 237.4900)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1cf89c7-6d2e-4755-bfc0-d3e81de860f8")
+	)
+	(label "SENSOR_GATE"
+		(at 279.4000 237.4900 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "8efea22d-2546-4cf7-98e7-14947cd7d426")
+	)
+	(symbol
+		(lib_id "MoistureRevB:R")
+		(at 279.4 269.24 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59f3de3a-c25b-41ca-8458-f75264750ba1")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "R11"
+			(at 283.4 266.7 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 283.4 269.24 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 283.4 269.24 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 279.4 269.24 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0805W8F1003T5E"
+			(at 279.4 269.24 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C149504"
+			(at 279.4 269.24 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 279.4 269.24 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C149504.html"
+			(at 279.4 269.24 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 279.4000 265.4300)
+			(xy 279.4000 260.3500)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "203247a9-1f43-4e4f-b20a-10ff35cf25bd")
+	)
+	(label "+3V3"
+		(at 279.4000 260.3500 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "b67f53a1-8b19-4e20-89a5-169141dd4d7a")
+	)
+	(wire
+		(pts
+			(xy 279.4000 273.0500)
+			(xy 279.4000 278.1300)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb5d79f2-40db-4653-bc2f-512c2be686b3")
+	)
+	(label "SENSOR_GATE"
+		(at 279.4000 278.1300 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb512c62-0e3e-40bb-b5ab-2166a734bc1f")
+	)
+	(symbol
+		(lib_id "MoistureRevB:TLC555xD")
+		(at 411.48 236.22 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2edf9ff3-e6e9-4a99-8de2-31fd4a82b644")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "U3"
+			(at 411.48 213.22 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "TLC555CDR"
+			(at 411.48 215.76 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 411.48 236.22 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 411.48 236.22 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TLC555CDR"
+			(at 411.48 236.22 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6986"
+			(at 411.48 236.22 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 411.48 236.22 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C6986.html"
+			(at 411.48 236.22 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 411.4800 246.3800)
+			(xy 411.4800 251.4600)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e5062b9-d344-4a74-978f-4b15544c7cc1")
+	)
+	(label "GND"
+		(at 411.4800 251.4600 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "a8d89574-7053-4f18-8781-0ef0ce92a8e6")
+	)
+	(wire
+		(pts
+			(xy 414.0200 226.0600)
+			(xy 414.0200 220.9800)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b25a88a-bbd8-4729-ac32-e34e20637b35")
+	)
+	(label "VCC_SENSOR"
+		(at 414.0200 220.9800 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6844801-0f0c-4e7e-8f11-16cd7235a68b")
+	)
+	(wire
+		(pts
+			(xy 401.3200 241.3000)
+			(xy 396.2400 241.3000)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09fce747-f7a1-4333-a232-31c6394a3244")
+	)
+	(label "OSC_RC"
+		(at 396.2400 241.3000 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "c4caa887-c940-4c90-b589-ed5027cab755")
+	)
+	(wire
+		(pts
+			(xy 421.6400 236.2200)
+			(xy 426.7200 236.2200)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d43ed821-ec7d-46ae-8284-46efa262ef15")
+	)
+	(label "FREQ_IN"
+		(at 426.7200 236.2200 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "abd209b6-d9d5-4fbc-abe5-370e4b0ff3b0")
+	)
+	(wire
+		(pts
+			(xy 401.3200 231.1400)
+			(xy 396.2400 231.1400)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1c305c7-1a83-46e8-b9b8-7207f0a34659")
+	)
+	(label "VCC_SENSOR"
+		(at 396.2400 231.1400 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ef653fa-17b4-4a11-923e-d6a1d92aff16")
+	)
+	(wire
+		(pts
+			(xy 411.4800 226.0600)
+			(xy 411.4800 220.9800)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c13eb4e0-44bb-4e83-a270-1b1cdd40d548")
+	)
+	(label "CTRL_BP"
+		(at 411.4800 220.9800 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "28f13ee7-5535-47ca-af52-5f7720132dee")
+	)
+	(wire
+		(pts
+			(xy 401.3200 238.7600)
+			(xy 396.2400 238.7600)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62f730bd-1329-4ab1-94ef-9a55d80f66dd")
+	)
+	(label "OSC_RC"
+		(at 396.2400 238.7600 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "301095a4-54d4-4435-ad67-842b13d5d76b")
+	)
+	(wire
+		(pts
+			(xy 401.3200 233.6800)
+			(xy 396.2400 233.6800)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34f73e11-96b6-4657-8c24-73eb10a8bfc8")
+	)
+	(label "OSC_RC_DISCH"
+		(at 396.2400 233.6800 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "f4370c3c-a4d7-45d3-8f0a-1521a740b811")
+	)
+	(symbol
+		(lib_id "MoistureRevB:R")
+		(at 480.06 205.74 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3eddc19d-068f-4cda-b12a-8252d3285167")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "R12"
+			(at 484.06 203.20000000000002 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 484.06 205.74 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 484.06 205.74 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 480.06 205.74 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0805W8F1002T5E"
+			(at 480.06 205.74 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17414"
+			(at 480.06 205.74 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 480.06 205.74 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C17414.html"
+			(at 480.06 205.74 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 480.0600 201.9300)
+			(xy 480.0600 196.8500)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17efcc18-254b-49d2-8274-175761314a15")
+	)
+	(label "VCC_SENSOR"
+		(at 480.0600 196.8500 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "9519017a-4231-4076-83dd-8bfd3dec1e92")
+	)
+	(wire
+		(pts
+			(xy 480.0600 209.5500)
+			(xy 480.0600 214.6300)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec65a6b1-935f-4c7d-978f-7f585801ea29")
+	)
+	(label "OSC_RC_DISCH"
+		(at 480.0600 214.6300 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "c7b308c6-1c63-4504-8fe8-46e372832460")
+	)
+	(symbol
+		(lib_id "MoistureRevB:R")
+		(at 480.06 241.3 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6066333-1334-41f9-86e1-0b90f29f2abc")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "R13"
+			(at 484.06 238.76000000000002 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 484.06 241.3 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 484.06 241.3 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 480.06 241.3 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0805W8F4702T5E"
+			(at 480.06 241.3 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17713"
+			(at 480.06 241.3 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 480.06 241.3 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C17713.html"
+			(at 480.06 241.3 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 480.0600 237.4900)
+			(xy 480.0600 232.4100)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f07a4156-2350-47f4-8d5f-f75d3588d026")
+	)
+	(label "OSC_RC_DISCH"
+		(at 480.0600 232.4100 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae19c0b7-eec5-4e68-a51f-535297febf7d")
+	)
+	(wire
+		(pts
+			(xy 480.0600 245.1100)
+			(xy 480.0600 250.1900)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e509185-1142-405f-9287-bb6ba2adad37")
+	)
+	(label "RV1_WIPER_TIE"
+		(at 480.0600 250.1900 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd32433a-636e-407b-bb2e-810335370f8e")
+	)
+	(symbol
+		(lib_id "MoistureRevB:R_Potentiometer_Trim")
+		(at 480.06 281.94 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "2e488e62-7303-41b2-ba11-768d8717a462")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "RV1"
+			(at 484.06 279.4 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k trim"
+			(at 484.06 281.94 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+			(at 484.06 281.94 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 480.06 281.94 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3296W-1-104LF"
+			(at 480.06 281.94 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C48084"
+			(at 480.06 281.94 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "Hand solder"
+			(at 480.06 281.94 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C48084.html"
+			(at 480.06 281.94 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 480.0600 278.1300)
+			(xy 480.0600 273.0500)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0030367a-8d45-49f9-a382-54fb8a7dcb7e")
+	)
+	(label "RV1_WIPER_TIE"
+		(at 480.0600 273.0500 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b963a37-cb4c-47a7-92ac-2ab6aa6d5061")
+	)
+	(wire
+		(pts
+			(xy 483.8700 281.9400)
+			(xy 488.9500 281.9400)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c16f0181-26ed-4aab-a0ad-57ad28255a37")
+	)
+	(label "RV1_WIPER_TIE"
+		(at 488.9500 281.9400 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "28b907b1-0677-4616-a7d8-bb1f77b14ce4")
+	)
+	(wire
+		(pts
+			(xy 480.0600 285.7500)
+			(xy 480.0600 290.8300)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05b9a621-8635-4427-a8f2-cf98a5c119e8")
+	)
+	(label "OSC_RC"
+		(at 480.0600 290.8300 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c01b166-7d4a-45b5-b371-464e7853a3f9")
+	)
+	(symbol
+		(lib_id "MoistureRevB:C")
+		(at 353.06 287.02 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8107895d-f5c2-4655-970e-e72d87527d68")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "C10"
+			(at 357.06 284.47999999999996 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF 50V X7R"
+			(at 357.06 287.02 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 357.06 287.02 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 353.06 287.02 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0805KRX7R9BB104"
+			(at 353.06 287.02 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C49678"
+			(at 353.06 287.02 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 353.06 287.02 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C49678.html"
+			(at 353.06 287.02 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 353.0600 283.2100)
+			(xy 353.0600 278.1300)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8b9f16f-ad53-4b1d-8f20-6307512e4d25")
+	)
+	(label "VCC_SENSOR"
+		(at 353.0600 278.1300 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "12d0f91d-756a-4669-a84c-e957f5ccf446")
+	)
+	(wire
+		(pts
+			(xy 353.0600 290.8300)
+			(xy 353.0600 295.9100)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c08c860-98d9-4cb5-b0de-1805709ce49f")
+	)
+	(label "GND"
+		(at 353.0600 295.9100 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6ebd173-40dc-4e63-9d64-0962143ecc20")
+	)
+	(symbol
+		(lib_id "MoistureRevB:C")
+		(at 406.4 287.02 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cacd4c2b-fc46-43e1-a586-cb6c0b37b07a")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "C11"
+			(at 410.4 284.47999999999996 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF 50V X7R"
+			(at 410.4 287.02 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 410.4 287.02 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 406.4 287.02 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21B103KBANNNC"
+			(at 406.4 287.02 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1710"
+			(at 406.4 287.02 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 406.4 287.02 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C1710.html"
+			(at 406.4 287.02 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 406.4000 283.2100)
+			(xy 406.4000 278.1300)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eca64ed6-3f21-42b5-99a5-391b4d50d56b")
+	)
+	(label "CTRL_BP"
+		(at 406.4000 278.1300 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "b4d498bd-92ad-4047-8cb1-71a984f9715b")
+	)
+	(wire
+		(pts
+			(xy 406.4000 290.8300)
+			(xy 406.4000 295.9100)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a7483a0-a311-4952-bacd-a9d7fa6c532a")
+	)
+	(label "GND"
+		(at 406.4000 295.9100 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3cec8d1-4220-4d0b-881e-4a8639e3c6b3")
+	)
+	(symbol
+		(lib_id "MoistureRevB:Conn_01x02")
+		(at 541.02 231.14 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "9a5c1c45-3d1f-4918-b6fa-0e9aec5ca18b")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "J3"
+			(at 541.02 208.14 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 541.02 210.67999999999998 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+			(at 541.02 231.14 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 541.02 231.14 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B2B-PH-K-S(LF)(SN)"
+			(at 541.02 231.14 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C131337"
+			(at 541.02 231.14 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "Hand solder"
+			(at 541.02 231.14 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C131337.html"
+			(at 541.02 231.14 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 535.9400 231.1400)
+			(xy 530.8600 231.1400)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9598d84-d78b-4b1a-81b0-068f7d2198cd")
+	)
+	(label "OSC_RC"
+		(at 530.8600 231.1400 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "b78ff37a-d82c-4414-9b39-e6bb8f6e05d0")
+	)
+	(wire
+		(pts
+			(xy 535.9400 233.6800)
+			(xy 530.8600 233.6800)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb94ed83-590a-4345-8ffe-0931d97d4d77")
+	)
+	(label "GND"
+		(at 530.8600 233.6800 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "03e61f88-81c2-41d7-8fbb-e51f0c86506c")
+	)
+	(symbol
+		(lib_id "MoistureRevB:Conn_01x02")
+		(at 541.02 281.94 0)
+		(unit 1)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "f607d38d-c3d0-47bb-b91a-82edaaf57414")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "J4"
+			(at 541.02 258.94 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "PCB capacitive probe"
+			(at 541.02 261.48 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "SoilProbe:SoilProbe_IDC_40x85mm"
+			(at 541.02 281.94 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 535.9400 281.9400)
+			(xy 530.8600 281.9400)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "987f3bb9-60a2-4b0a-b441-bce295bec9f4")
+	)
+	(label "OSC_RC"
+		(at 530.8600 281.9400 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f23ccfe-923b-4ae8-89d5-d1ebb4a82da9")
+	)
+	(wire
+		(pts
+			(xy 535.9400 284.4800)
+			(xy 530.8600 284.4800)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "470ac08f-4415-4de9-8df7-96269c9d8f85")
+	)
+	(label "GND"
+		(at 530.8600 284.4800 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "3765ef92-b4df-415d-bbae-ba730fc80305")
+	)
+	(symbol
+		(lib_id "MoistureRevB:PWR_FLAG")
+		(at 38.1 365.76 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1277ca6-85bf-4776-a1ce-926d10d2e92c")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "#FLG01"
+			(at 38.1 342.76 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 38.1 345.3 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 365.76 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 38.1000 365.7600)
+			(xy 38.1000 370.8400)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d2a56d1-4b17-4027-9be1-09db512dc3e4")
+	)
+	(label "GND"
+		(at 38.1000 370.8400 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2b02d1b-e9cd-45d2-b789-26c6c1a53935")
+	)
+	(symbol
+		(lib_id "MoistureRevB:PWR_FLAG")
+		(at 83.82 365.76 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9e4dea8-edad-4dd3-85e9-5af247852417")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "#FLG02"
+			(at 83.82 342.76 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 83.82 345.3 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 365.76 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 83.8200 365.7600)
+			(xy 83.8200 370.8400)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b0cf4c5-05b1-45df-b404-400d2c60ebaf")
+	)
+	(label "VIN_DC"
+		(at 83.8200 370.8400 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "b53d96e6-dbdd-4f1a-8255-62ebf8aa9b93")
+	)
+	(symbol
+		(lib_id "MoistureRevB:PWR_FLAG")
+		(at 129.54 365.76 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "177e5878-2fac-496a-bcca-5a9ac9e52b6b")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "#FLG03"
+			(at 129.54 342.76 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 129.54 345.3 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 365.76 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 129.5400 365.7600)
+			(xy 129.5400 370.8400)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97ff59ea-ba2d-4441-91da-ea7123d0d9ce")
+	)
+	(label "VBAT"
+		(at 129.5400 370.8400 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "b14b18a2-2960-4a7e-9876-1cd098c6690e")
+	)
+	(symbol
+		(lib_id "MoistureRevB:PWR_FLAG")
+		(at 175.26 365.76 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee3a7fdc-b4cb-440a-9bef-54febe4ba9e7")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "#FLG04"
+			(at 175.26 342.76 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 175.26 345.3 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 365.76 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 175.2600 365.7600)
+			(xy 175.2600 370.8400)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47330445-2276-4dd1-9420-d3df3b17af60")
+	)
+	(label "+3V3"
+		(at 175.2600 370.8400 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "1daa68c1-8a75-4e6b-8966-118c2abdc600")
+	)
+	(symbol
+		(lib_id "MoistureRevB:PWR_FLAG")
+		(at 220.98 365.76 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f3346e4-8a2b-4e85-ac71-b8fd0dc9084e")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "#FLG05"
+			(at 220.98 342.76 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 220.98 345.3 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 365.76 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 220.9800 365.7600)
+			(xy 220.9800 370.8400)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "104a436b-a1fc-4627-b921-f51bc1cd12f2")
+	)
+	(label "VCC_SENSOR"
+		(at 220.9800 370.8400 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "4caffb49-c3e7-4a86-9854-1c369001f23d")
+	)
+	(text "01  ENERGY HARVESTING + STORAGE"
+		(at 25.4 20.32 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left top)
+		)
+		(uuid "d1181123-5841-4bd9-b3fa-e22cb48a42b3")
+	)
+	(text "02  ESP32-C3 + PROGRAMMING"
+		(at 317.5 20.32 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left top)
+		)
+		(uuid "0180c5d5-6651-4b09-a535-76708f0aa0ad")
+	)
+	(text "03  3.3 V / 750 mA SUPPLY"
+		(at 25.4 180.34 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left top)
+		)
+		(uuid "62d67c40-9001-4da0-b4b5-b82467ff8230")
+	)
+	(text "04  SWITCHED CAPACITIVE OSCILLATOR"
+		(at 266.7 180.34 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left top)
+		)
+		(uuid "f8ddde13-4d3d-4d7b-9615-b573d7f80477")
+	)
+	(text "BQ25570 buck disabled; U4 draws from VBAT directly.\nOV: R1+R17 = 4M; R2+R18+R19 = 7M.\nOV = 1.5 x 1.21 x (1 + 7/4) = 4.991 V.\nBAT_OK: bottom 4M, middle 8M, top 1.5M.\nOFF = 3.630 V; ON = 4.084 V. Total divider = 13.5M.\nJ1: solar Voc <= 5.1 V, power <= 400 mW.\nSC1: PHV-5R4V305-R, low ESR, indoor <= 65 C."
+		(at 25.4 290.83 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left top)
+		)
+		(uuid "03692252-5380-48c8-b37c-b533e95327c5")
+	)
+	(text "GPIO4 LOW = sensor ON; HIGH = OFF. Retain HIGH in sleep.\nMeasure frequency on GPIO5 after sensor settling; radio off during measurement.\nJ3 is an optional external probe/test connector, parallel with J4.\nJ4 copper is covered by solder mask. Seal probe edges before soil exposure.\nCalibrate dry/wet in the actual soil and coating; frequency is not absolute VWC.\nJ2 pin 1 is 3.3 V OUTPUT/reference, not an external power input."
+		(at 266.7 320.04 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left top)
+		)
+		(uuid "4bbd201f-2f03-46be-b179-7b98c46c93f6")
+	)
+	(text "POWER-NET ERC FLAGS (passive storage / switched power)"
+		(at 25.4 350.52 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left top)
+		)
+		(uuid "dad00588-eddc-43d5-bb20-91f6f6559ccc")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+	(wire
+		(pts
+			(xy 180.34 44.449999999999996)
+			(xy 180.34 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10131378-e7a4-437e-b5e1-2ae39d7592a0")
+	)
+	(label "VBAT_OV_N"
+		(at 180.34 39.37 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e801afb-9b2a-4144-b890-c0b6e1fe3b68")
+	)
+	(wire
+		(pts
+			(xy 180.34 52.07)
+			(xy 180.34 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d90c2887-e341-4a9e-a16c-9f068c586b6d")
+	)
+	(label "OV_LO_SER"
+		(at 180.34 57.15 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "e54f67c8-1ae2-4dbc-be88-7803443cdd9b")
+	)
+	(symbol
+		(lib_id "MoistureRevB:R")
+		(at 226.06 48.26 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "340f5979-0c67-4967-b044-161ec68087b8")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "R17"
+			(at 230.06 45.72 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2M 1%"
+			(at 230.06 48.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 230.06 48.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 226.06 48.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF2004T5E"
+			(at 226.06 48.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22976"
+			(at 226.06 48.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 226.06 48.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C22976.html"
+			(at 226.06 48.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 226.06 44.449999999999996)
+			(xy 226.06 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "049ad1d0-f631-4019-85a3-f7d8772358b3")
+	)
+	(label "OV_LO_SER"
+		(at 226.06 39.37 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "46b23065-e993-48da-8e8a-9973fc41f3ee")
+	)
+	(wire
+		(pts
+			(xy 226.06 52.07)
+			(xy 226.06 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e60b963-9c96-4688-aa0e-9b7e079c2745")
+	)
+	(label "GND"
+		(at 226.06 57.15 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "ce7ba10f-ac97-4e18-a903-4811196ef7bf")
+	)
+	(wire
+		(pts
+			(xy 180.34 80.00999999999999)
+			(xy 180.34 74.92999999999999)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5f0bda6-1d0d-475d-95cf-311eedf83864")
+	)
+	(label "VRDIV"
+		(at 180.34 74.92999999999999 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "7bc47579-af09-4f3e-a4b4-b57bf61bff5c")
+	)
+	(wire
+		(pts
+			(xy 180.34 87.63)
+			(xy 180.34 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1521985d-7dd3-458f-add2-728b8e67796a")
+	)
+	(label "OV_HI_SER1"
+		(at 180.34 92.71 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0d81f2d-5b1d-45c0-a542-8c597758bede")
+	)
+	(symbol
+		(lib_id "MoistureRevB:R")
+		(at 180.34 109.22 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4c4fd8c-1ad1-49c1-85a9-d6226ca625b9")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "R18"
+			(at 184.34 106.67999999999999 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2M 1%"
+			(at 184.34 109.22 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 184.34 109.22 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 180.34 109.22 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF2004T5E"
+			(at 180.34 109.22 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22976"
+			(at 180.34 109.22 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 180.34 109.22 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C22976.html"
+			(at 180.34 109.22 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 180.34 105.41)
+			(xy 180.34 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32d40735-e96d-4d99-8daf-9dd991467683")
+	)
+	(label "OV_HI_SER1"
+		(at 180.34 100.33 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "39942c23-ec87-43f4-a087-cb7fbd2591d4")
+	)
+	(wire
+		(pts
+			(xy 180.34 113.03)
+			(xy 180.34 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce0b9950-9109-435c-b53c-ec71aabbef7f")
+	)
+	(label "OV_HI_SER2"
+		(at 180.34 118.11 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a55a73f-39dc-4123-a0d6-25ba4260ecfa")
+	)
+	(symbol
+		(lib_id "MoistureRevB:R")
+		(at 226.06 109.22 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9260254-b96b-45ca-95d1-c7130b0e4bb6")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "R19"
+			(at 230.06 106.67999999999999 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3M 1%"
+			(at 230.06 109.22 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 230.06 109.22 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 226.06 109.22 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF3004T5E"
+			(at 226.06 109.22 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23156"
+			(at 226.06 109.22 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 226.06 109.22 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C23156.html"
+			(at 226.06 109.22 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 226.06 105.41)
+			(xy 226.06 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81328ca1-7d8b-4715-b3f7-1ed22b184d57")
+	)
+	(label "OV_HI_SER2"
+		(at 226.06 100.33 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "2bf38dac-232d-40fd-89ad-0b84e4edefa8")
+	)
+	(wire
+		(pts
+			(xy 226.06 113.03)
+			(xy 226.06 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee7055aa-9d71-48be-b256-c08c67cc6f65")
+	)
+	(label "VBAT_OV_N"
+		(at 226.06 118.11 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "04c75155-2010-4e15-bf5b-15f94521592a")
+	)
+	(wire
+		(pts
+			(xy 271.78 44.449999999999996)
+			(xy 271.78 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "188a028c-46b7-455e-a5d8-fc36c7663882")
+	)
+	(label "GND"
+		(at 271.78 39.37 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2695df0-26c2-4be0-9429-d0d064882519")
+	)
+	(wire
+		(pts
+			(xy 271.78 52.07)
+			(xy 271.78 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23d46fba-9451-4d7f-a756-8db4bfed8138")
+	)
+	(label "OK_LO_SER"
+		(at 271.78 57.15 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "6456b290-9139-4dfc-8c35-551e99b977c3")
+	)
+	(symbol
+		(lib_id "MoistureRevB:R")
+		(at 271.78 66.04 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38b8d08a-6631-48b0-a847-7216a6f546ab")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "R20"
+			(at 275.78 63.50000000000001 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2M 1%"
+			(at 275.78 66.04 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 275.78 66.04 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 271.78 66.04 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF2004T5E"
+			(at 271.78 66.04 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22976"
+			(at 271.78 66.04 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 271.78 66.04 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C22976.html"
+			(at 271.78 66.04 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 271.78 62.230000000000004)
+			(xy 271.78 57.150000000000006)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "701df985-9a95-4e97-aa6d-65a7485273d5")
+	)
+	(label "OK_LO_SER"
+		(at 271.78 57.150000000000006 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "48446838-c4bb-45c7-a7bc-45954b4e180d")
+	)
+	(wire
+		(pts
+			(xy 271.78 69.85000000000001)
+			(xy 271.78 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adb7ae9f-3974-4cac-8b2e-b8b784ca0885")
+	)
+	(label "OK_PROG_N"
+		(at 271.78 74.93 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "d41d489d-a724-4fdb-9d37-fe0425dab4a0")
+	)
+	(wire
+		(pts
+			(xy 271.78 80.00999999999999)
+			(xy 271.78 74.92999999999999)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d41c5366-c6fc-4db7-8981-c58c877a6cb0")
+	)
+	(label "OK_PROG_N"
+		(at 271.78 74.92999999999999 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "9474c9ec-3dad-4598-92a9-c84a21a5e940")
+	)
+	(wire
+		(pts
+			(xy 271.78 87.63)
+			(xy 271.78 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc210fdf-27f3-412a-b2bb-62b30bf4fe13")
+	)
+	(label "OK_MID_SER1"
+		(at 271.78 92.71 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e34b9e0-9757-4884-8a22-8acdabdfa88e")
+	)
+	(symbol
+		(lib_id "MoistureRevB:R")
+		(at 271.78 101.6 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "216a3ae3-2b24-4aea-b910-8b78b67043d4")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "R21"
+			(at 275.78 99.05999999999999 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2M 1%"
+			(at 275.78 101.6 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 275.78 101.6 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 271.78 101.6 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF2004T5E"
+			(at 271.78 101.6 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22976"
+			(at 271.78 101.6 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 271.78 101.6 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C22976.html"
+			(at 271.78 101.6 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 271.78 97.78999999999999)
+			(xy 271.78 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcc58306-daf7-4072-890f-f1a6483ce5f0")
+	)
+	(label "OK_MID_SER1"
+		(at 271.78 92.71 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2fb2f43-d6fd-4dac-b60a-b727e78c930f")
+	)
+	(wire
+		(pts
+			(xy 271.78 105.41)
+			(xy 271.78 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92166d8e-c8bc-4f5f-9aa5-1199c7617b30")
+	)
+	(label "OK_MID_SER2"
+		(at 271.78 110.49 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "92985f55-ac3b-424d-9529-9ce5800257e4")
+	)
+	(symbol
+		(lib_id "MoistureRevB:R")
+		(at 271.78 119.38 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b835c7fa-834c-4c89-a115-59029ff33221")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "R22"
+			(at 275.78 116.83999999999999 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2M 1%"
+			(at 275.78 119.38 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 275.78 119.38 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 271.78 119.38 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF2004T5E"
+			(at 271.78 119.38 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22976"
+			(at 271.78 119.38 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 271.78 119.38 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C22976.html"
+			(at 271.78 119.38 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 271.78 115.57)
+			(xy 271.78 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "032d5fe1-841a-46bb-af66-bea50ec07f7c")
+	)
+	(label "OK_MID_SER2"
+		(at 271.78 110.49 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d5bc86e-4140-463c-b7d2-58168369e908")
+	)
+	(wire
+		(pts
+			(xy 271.78 123.19)
+			(xy 271.78 128.26999999999998)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f71691ec-0b60-4022-9c7a-709deb504829")
+	)
+	(label "OK_MID_SER3"
+		(at 271.78 128.26999999999998 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "cadb1f1e-4bb0-4d58-aecb-683c6c3bd9e3")
+	)
+	(symbol
+		(lib_id "MoistureRevB:R")
+		(at 271.78 137.16 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e8e0739-ee1e-45fa-a508-fcd8e3002416")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "R23"
+			(at 275.78 134.62 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2M 1%"
+			(at 275.78 137.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 275.78 137.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 271.78 137.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF2004T5E"
+			(at 271.78 137.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22976"
+			(at 271.78 137.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 271.78 137.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C22976.html"
+			(at 271.78 137.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 271.78 133.35)
+			(xy 271.78 128.26999999999998)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54537993-fd95-4d81-bd24-a3142e042e63")
+	)
+	(label "OK_MID_SER3"
+		(at 271.78 128.26999999999998 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "971464bb-8a62-4cdd-8d2a-8983b6302c1e")
+	)
+	(wire
+		(pts
+			(xy 271.78 140.97)
+			(xy 271.78 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e47f9bd4-7e69-4bb8-b490-cc24ad0b3d26")
+	)
+	(label "OK_HYST_N"
+		(at 271.78 146.05 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "11c0ed18-5ed9-46ef-8caf-baa48e1e440a")
+	)
+	(wire
+		(pts
+			(xy 271.78 160.02)
+			(xy 271.78 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9df2a428-c44a-47cd-b522-f396e3ded377")
+	)
+	(label "VRDIV"
+		(at 271.78 154.94 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a0808ce-045d-4823-8208-2a0840233a05")
+	)
+	(wire
+		(pts
+			(xy 271.78 167.64)
+			(xy 271.78 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b816760f-aeaf-4d8e-ac2d-3f112e79cab0")
+	)
+	(label "OK_HYST_N"
+		(at 271.78 172.72 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "d45de1d3-86dd-48bf-b9df-abdbffbc1101")
+	)
+	(symbol
+		(lib_id "MoistureRevB:R")
+		(at 330.2 391.16 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5443e720-34d0-4b94-aa84-966497b271fc")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "R24"
+			(at 334.2 388.62 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2M 1%"
+			(at 334.2 391.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 334.2 391.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 330.2 391.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF2004T5E"
+			(at 330.2 391.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22976"
+			(at 330.2 391.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 330.2 391.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C22976.html"
+			(at 330.2 391.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 330.2 387.35)
+			(xy 330.2 382.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fed667b-a518-4c37-b3b5-2bb68850dff4")
+	)
+	(label "VBAT"
+		(at 330.2 382.27 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7f72aab-a132-4dfe-b205-7fda2423fc29")
+	)
+	(wire
+		(pts
+			(xy 330.2 394.97)
+			(xy 330.2 400.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d081609-908f-413c-adcb-5d8152d82237")
+	)
+	(label "VCAP_ADC"
+		(at 330.2 400.05 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "f4f80828-7b7c-41ea-b1f9-c3bbca4a2945")
+	)
+	(symbol
+		(lib_id "MoistureRevB:R")
+		(at 406.4 391.16 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "828f6427-05a7-4cfe-9817-b171e141b1dc")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "R25"
+			(at 410.4 388.62 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k 1%"
+			(at 410.4 391.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 410.4 391.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 406.4 391.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1003T5E"
+			(at 406.4 391.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25803"
+			(at 406.4 391.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 406.4 391.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C25803.html"
+			(at 406.4 391.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 406.4 387.35)
+			(xy 406.4 382.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62434137-6a21-4425-a16f-ab6c92817148")
+	)
+	(label "VCAP_ADC"
+		(at 406.4 382.27 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "9452ea32-f7be-494a-9f97-ac0e194e86fb")
+	)
+	(wire
+		(pts
+			(xy 406.4 394.97)
+			(xy 406.4 400.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac878a4b-44c6-46bd-b1ad-1d652d24c319")
+	)
+	(label "GND"
+		(at 406.4 400.05 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1998090-ea80-46c4-95fc-f46da55d9682")
+	)
+	(symbol
+		(lib_id "MoistureRevB:C")
+		(at 480.06 391.16 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c78cbb3-b7e0-4c6f-8364-33754d2bdd45")
+		(instances
+			(project "SoilMoistureSensor"
+				(path "/79d9ef7d-7411-4059-b8f4-932a051f5864"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+		(property "Reference" "C13"
+			(at 484.06 388.62 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF 10V"
+			(at 484.06 391.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 484.06 391.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 480.06 391.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 480.06 391.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 480.06 391.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "JLCPCB SMT"
+			(at 480.06 391.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.lcsc.com/product-detail/C14663.html"
+			(at 480.06 391.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 480.06 387.35)
+			(xy 480.06 382.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9be0e7d7-77e5-4ed0-a5e0-fd0b743890c3")
+	)
+	(label "VCAP_ADC"
+		(at 480.06 382.27 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "37d6f45e-d665-40ab-8e64-8305d2486c82")
+	)
+	(wire
+		(pts
+			(xy 480.06 394.97)
+			(xy 480.06 400.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb3cbe6f-dd9c-449f-a7d0-3d56c6c57a8d")
+	)
+	(label "GND"
+		(at 480.06 400.05 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6e4a0d5-9e68-4499-a9d4-edff489f4899")
+	)
+	(label "VCAP_ADC"
+		(at 391.15999999999997 86.36 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "30ac1f5e-7756-44c2-92a5-1b52a8938ec8")
+	)
+	(text "SUPERCAP TELEMETRY: GPIO3 / ADC1_CH3, 0 dB. Vcap = 21 x calibrated ADC volts.\nR24/R25 = 2M/100k; C13 = 100nF. Wait 100ms; average before Wi-Fi.\nLow ratio keeps input below 0.263V at 5.4V storage, including when ESP is off.\nDivider draws 2.38uA at 5V. Calibrate against a meter for better accuracy."
+		(at 317.5 414.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "251e2f75-b533-4e1e-89ce-2d1454af5ba8")
+	)
+)

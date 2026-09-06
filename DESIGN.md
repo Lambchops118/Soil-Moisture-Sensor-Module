@@ -70,6 +70,16 @@ quiescent current is far lower, which matters more than the extra part.
 (drive low = on, R11 pulls the gate high by default). The 555 and its RC network only
 draw current during a measurement window.
 
+**No vias inside SMD pads.** The original auto-routing left 20 vias whose drill
+broke into a pad's soldermask aperture. Each 0.3 mm barrel through 1.6 mm of board
+is 0.113 mm3 of empty volume against joints holding 0.043-0.087 mm3 of solder, so
+the barrel can wick out the whole joint during reflow. `scripts/clear_via_in_pad.py`
+moved them clear (0.05-1.55 mm each) and `scripts/check_via_in_pad.py` verifies the
+board stays clean; run the checker after any re-route. The six vias in U4's exposed
+thermal pad are deliberate and are excluded by name. Note that a pad's `GetSize()`
+is in the pad's own frame, so any check has to be rotation-aware: C12 sits at 270
+degrees and an unrotated comparison reports a defect that is not there.
+
 **The probe is soldermask-covered on purpose.** J4's pads are `F.Cu` only with no mask
 opening — the mask is the dielectric and the waterproofing. Do not "fix" this by adding
 mask apertures; bare copper in soil corrodes and shorts.
@@ -220,13 +230,8 @@ use a support/spine rather than changing to 2 mm without checking connector fit.
 
 1. **Supplier availability:** confirm U1 in the quotation and review JLCPCB's
    placement preview. Eight Extended parts remain unavoidable.
-2. **Via-in-pad:** 19 vias land inside ordinary SMD pads, three of them breaking
-   the pad edge (C12.2, R15.1, U4.5). These date from the original auto-routing.
-   A via inside a pad's mask aperture wicks solder off the joint during reflow, so
-   they are an assembly-yield risk worth clearing before a production run. The two
-   vias in U4's exposed pad are deliberate and should stay.
-3. **Manual assembly:** SC1, RV1, J1 and optional J2/J3 are hand-fitted; the solar
+2. **Manual assembly:** SC1, RV1, J1 and optional J2/J3 are hand-fitted; the solar
    module is hand-wired on its carrier.
-4. **Panel carrier assembly:** source an insulating plate, spacers, and fasteners
+3. **Panel carrier assembly:** source an insulating plate, spacers, and fasteners
    using the mounting dimensions above.
-5. **No firmware in this repo.** Implement and calibrate supercap telemetry.
+4. **No firmware in this repo.** Implement and calibrate supercap telemetry.
